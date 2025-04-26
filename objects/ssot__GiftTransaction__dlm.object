@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AcknowledgementDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Acknowledgement Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Acknowledgement Date</masterLabel>
+            <refAttrDeveloperName>AcknowledgementDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AcknowledgementStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Acknowledgement Status</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Acknowledgement Status</masterLabel>
+            <refAttrDeveloperName>AcknowledgementStatus</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdvancementType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Advancement Type</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Advancement Type</masterLabel>
+            <refAttrDeveloperName>AdvancementType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CampaignId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Campaign</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Campaign</masterLabel>
+            <refAttrDeveloperName>CampaignId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CheckDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Check Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Check Date</masterLabel>
+            <refAttrDeveloperName>CheckDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ContactId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Contact Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Contact Id</masterLabel>
+            <refAttrDeveloperName>ContactId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurrentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Current Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Current Amount</masterLabel>
+            <refAttrDeveloperName>CurrentAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Description</masterLabel>
+            <refAttrDeveloperName>Description</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DonorCoverAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Donor Cover Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Donor Cover Amount</masterLabel>
+            <refAttrDeveloperName>DonorCoverAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DonorId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Donor</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Donor</masterLabel>
+            <refAttrDeveloperName>DonorId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GatewayReference__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gateway Reference</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Gateway Reference</masterLabel>
+            <refAttrDeveloperName>GatewayReference</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GatewayTransactionFeeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gateway Transaction Fee</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Gateway Transaction Fee</masterLabel>
+            <refAttrDeveloperName>GatewayTransactionFeeAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GenerationalCohort__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Generational Cohort</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Generational Cohort</masterLabel>
+            <refAttrDeveloperName>GenerationalCohort</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GiftCommitmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gift Commitment</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Gift Commitment</masterLabel>
+            <refAttrDeveloperName>GiftCommitmentId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GiftTransactionStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gift Transaction Status</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Gift Transaction Status</masterLabel>
+            <refAttrDeveloperName>GiftTransactionStatus</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GiftType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gift Type</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Gift Type</masterLabel>
+            <refAttrDeveloperName>GiftType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GraduationAchievement__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Graduation Achievement</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Graduation Achievement</masterLabel>
+            <refAttrDeveloperName>GraduationAchievement</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GraduationCohort__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Graduation Cohort</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Graduation Cohort</masterLabel>
+            <refAttrDeveloperName>GraduationCohort</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gift Transaction Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Gift Transaction Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsFullyRefunded__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Fully Refunded</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Fully Refunded</masterLabel>
+            <refAttrDeveloperName>IsFullyRefunded</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPaid__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Paid</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Paid</masterLabel>
+            <refAttrDeveloperName>IsPaid</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPartiallyRefunded__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Partially Refunded</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Partially Refunded</masterLabel>
+            <refAttrDeveloperName>IsPartiallyRefunded</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsWrittenOff__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Written Off</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Written Off</masterLabel>
+            <refAttrDeveloperName>IsWrittenOff</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastGatewayErrorMessage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Gateway Error Message</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Last Gateway Error Message</masterLabel>
+            <refAttrDeveloperName>LastGatewayErrorMessage</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastGatewayProcessedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Gateway Processed Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Last Gateway Processed Date</masterLabel>
+            <refAttrDeveloperName>LastGatewayProcessedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastGatewayResponseCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Gateway Response Code</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Last Gateway Response Code</masterLabel>
+            <refAttrDeveloperName>LastGatewayResponseCode</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MatchingEmployerTransactionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Matching Employer Transaction</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Matching Employer Transaction</masterLabel>
+            <refAttrDeveloperName>MatchingEmployerTransactionId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Name</masterLabel>
+            <refAttrDeveloperName>Name</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NonTaxDeductibleAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Non Tax Deductible Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Non Tax Deductible Amount</masterLabel>
+            <refAttrDeveloperName>NonTaxDeductibleAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OriginalAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Original Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Original Amount</masterLabel>
+            <refAttrDeveloperName>OriginalAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutreachSourceCodeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outreach Source Code</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Outreach Source Code</masterLabel>
+            <refAttrDeveloperName>OutreachSourceCodeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaymentIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payment Identifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Payment Identifier</masterLabel>
+            <refAttrDeveloperName>PaymentIdentifier</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaymentInstrumentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payment Instrument</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Payment Instrument</masterLabel>
+            <refAttrDeveloperName>PaymentInstrumentId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PaymentMethodId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payment Method</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Payment Method</masterLabel>
+            <refAttrDeveloperName>PaymentMethodId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProcessorReference__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Processor Reference</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Processor Reference</masterLabel>
+            <refAttrDeveloperName>ProcessorReference</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProcessorTransactionFeeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Processor Transaction Fee</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Processor Transaction Fee</masterLabel>
+            <refAttrDeveloperName>ProcessorTransactionFeeAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RefundedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Refunded Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Refunded Amount</masterLabel>
+            <refAttrDeveloperName>RefundedAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxDeductionAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Deduction</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Tax Deduction</masterLabel>
+            <refAttrDeveloperName>TaxDeductionAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxReceiptStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Receipt Status</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Tax Receipt Status</masterLabel>
+            <refAttrDeveloperName>TaxReceiptStatus</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalTransactionFeeAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Transaction Fee</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Transaction Fee</masterLabel>
+            <refAttrDeveloperName>TotalTransactionFeeAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TransactionDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Transaction Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Transaction Date</masterLabel>
+            <refAttrDeveloperName>TransactionDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761240110_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GiftTransaction_CampaignId_map_Campa_rel</label>
+        <referenceTo>ssot__Campaign__dlm</referenceTo>
+        <relationshipLabel>GiftTransaction_CampaignId_map_Campa_rel</relationshipLabel>
+        <relationshipName>rel_1697761240110_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761240181_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GiftTransaction_DonorId_map_Account__rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>GiftTransaction_DonorId_map_Account__rel</relationshipLabel>
+        <relationshipName>rel_1697761240181_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761240244_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GiftTransaction_GiftCommitmentId_map_rel</label>
+        <referenceTo>ssot__GiftCommitment__dlm</referenceTo>
+        <relationshipLabel>GiftTransaction_GiftCommitmentId_map_rel</relationshipLabel>
+        <relationshipName>rel_1697761240244_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761240305_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GiftTransaction_MatchingEmployerTran_rel</label>
+        <referenceTo>ssot__GiftTransaction__dlm</referenceTo>
+        <relationshipLabel>GiftTransaction_MatchingEmployerTran_rel</relationshipLabel>
+        <relationshipName>rel_1697761240305_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761240367_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GiftTransaction_OutreachSourceCodeId_rel</label>
+        <referenceTo>ssot__OutreachSourceCode__dlm</referenceTo>
+        <relationshipLabel>GiftTransaction_OutreachSourceCodeId_rel</relationshipLabel>
+        <relationshipName>rel_1697761240367_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761240504_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GiftTransaction_PaymentMethodId_map__rel</label>
+        <referenceTo>ssot__PaymentMethod__dlm</referenceTo>
+        <relationshipLabel>GiftTransaction_PaymentMethodId_map__rel</relationshipLabel>
+        <relationshipName>rel_1697761240504_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1732247644352_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GiftTransaction_PaymentInstrumentId__rel</label>
+        <referenceTo>ssot__PaymentInstrument__dlm</referenceTo>
+        <relationshipLabel>GiftTransaction_PaymentInstrumentId__rel</relationshipLabel>
+        <relationshipName>rel_1732247644352_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1732247650960_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>GiftTransaction_ContactId_map_Indivi_rel</label>
+        <referenceTo>ssot__Individual__dlm</referenceTo>
+        <relationshipLabel>GiftTransaction_ContactId_map_Indivi_rel</relationshipLabel>
+        <relationshipName>rel_1732247650960_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>GiftTransaction</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Fundraising</referenceEntityGroup>
+        <referenceEntityName>GiftTransaction</referenceEntityName>
+        <referenceEntitySubjectArea>Gift</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

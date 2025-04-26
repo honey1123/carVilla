@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ActualAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Actual Amount</masterLabel>
+            <refAttrDeveloperName>ActualAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ActualQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Actual Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Actual Quantity</masterLabel>
+            <refAttrDeveloperName>ActualQuantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BudgetCategoryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Budget Category</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Budget Category</masterLabel>
+            <refAttrDeveloperName>BudgetCategoryId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BudgetPeriodId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Budget Period</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Budget Period</masterLabel>
+            <refAttrDeveloperName>BudgetPeriodId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Comments__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Comments</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Comments</masterLabel>
+            <refAttrDeveloperName>Comments</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Budget Category Value Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Budget Category Value Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Name</masterLabel>
+            <refAttrDeveloperName>Name</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PlannedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Planned Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Planned Amount</masterLabel>
+            <refAttrDeveloperName>PlannedAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PlannedQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Planned Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Planned Quantity</masterLabel>
+            <refAttrDeveloperName>PlannedQuantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VarianceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Variance Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Variance Amount</masterLabel>
+            <refAttrDeveloperName>VarianceAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VarianceQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Variance Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Variance Quantity</masterLabel>
+            <refAttrDeveloperName>VarianceQuantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726574460_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>BudgetCategoryValue_BudgetPeriodId_m_rel</label>
+        <referenceTo>ssot__BudgetPeriod__dlm</referenceTo>
+        <relationshipLabel>BudgetCategoryValue_BudgetPeriodId_m_rel</relationshipLabel>
+        <relationshipName>rel_1716726574460_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726641508_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>BudgetCategoryValue_BudgetCategoryId_rel</label>
+        <referenceTo>ssot__BudgetCategory__dlm</referenceTo>
+        <relationshipLabel>BudgetCategoryValue_BudgetCategoryId_rel</relationshipLabel>
+        <relationshipName>rel_1716726641508_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Budget Category Value</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Budget</referenceEntityGroup>
+        <referenceEntityName>BudgetCategoryValue</referenceEntityName>
+        <referenceEntitySubjectArea>Budget</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

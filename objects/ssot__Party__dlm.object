@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__BorrowerRating__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Borrower Rating</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Borrower Rating</masterLabel>
+            <refAttrDeveloperName>BorrowerRating</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreditRating__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Credit Rating</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Credit Rating</masterLabel>
+            <refAttrDeveloperName>CreditRating</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreditScoreNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Credit ScoreNumber</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Credit ScoreNumber</masterLabel>
+            <refAttrDeveloperName>CreditScoreNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Party Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndividualId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Individual</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Individual</masterLabel>
+            <refAttrDeveloperName>IndividualId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LifetimeAssetValueAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Lifetime Asset Value Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Lifetime Asset Value Amount</masterLabel>
+            <refAttrDeveloperName>LifetimeAssetValueAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NoMergeReason__c</fullName>
+        <deprecated>false</deprecated>
+        <label>No Merge Reason</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>No Merge Reason</masterLabel>
+            <refAttrDeveloperName>NoMergeReason</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Organization</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Organization</masterLabel>
+            <refAttrDeveloperName>OrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Type</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Party Type</masterLabel>
+            <refAttrDeveloperName>PartyType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Party_IndividualId_map_Individual_Id_N_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Party_IndividualId_map_Individual_Id_N_1</label>
+        <referenceTo>ssot__Individual__dlm</referenceTo>
+        <relationshipLabel>Party_IndividualId_map_Individual_Id_N_1</relationshipLabel>
+        <relationshipName>Party_IndividualId_map_Individual_Id_N_1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Party</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Party</referenceEntityGroup>
+        <referenceEntityName>Party</referenceEntityName>
+        <referenceEntitySubjectArea>Party</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

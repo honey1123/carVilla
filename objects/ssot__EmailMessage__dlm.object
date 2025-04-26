@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__CaseId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Case</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Case</masterLabel>
+            <refAttrDeveloperName>CaseId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ChannelEngagementId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Channel Engagement</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Channel Engagement</masterLabel>
+            <refAttrDeveloperName>ChannelEngagementId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ChannelEngagementNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Channel Engagement Number</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Channel Engagement Number</masterLabel>
+            <refAttrDeveloperName>ChannelEngagementNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CountryRegion__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Country Region</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Country Region</masterLabel>
+            <refAttrDeveloperName>CountryRegion</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created By</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Created By</masterLabel>
+            <refAttrDeveloperName>CreatedById</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created DateTime</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Created DateTime</masterLabel>
+            <refAttrDeveloperName>CreatedDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Created Date</masterLabel>
+            <refAttrDeveloperName>CreatedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmailHeaderText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Email Header</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Email Header</masterLabel>
+            <refAttrDeveloperName>EmailHeaderText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmailMessageText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Email Message</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Email Message</masterLabel>
+            <refAttrDeveloperName>EmailMessageText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmailMessage_CaseId_map_Case_Id_N_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailMessage_CaseId_map_Case_Id_N_1</label>
+        <referenceTo>ssot__Case__dlm</referenceTo>
+        <relationshipLabel>EmailMessage_CaseId_map_Case_Id_N_1</relationshipLabel>
+        <relationshipName>EmailMessage_CaseId_map_Case_Id_N_1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmailMessage_CreatedById_map_User_Id_N_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailMessage_CreatedById_map_User_Id_N_1</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>EmailMessage_CreatedById_map_User_Id_N_1</relationshipLabel>
+        <relationshipName>EmailMessage_CreatedById_map_User_Id_N_1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmailStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Email Status</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Email Status</masterLabel>
+            <refAttrDeveloperName>EmailStatus</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmailSubjectText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Email Subject</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Email Subject</masterLabel>
+            <refAttrDeveloperName>EmailSubjectText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmailThreadId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Email Thread</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Email Thread</masterLabel>
+            <refAttrDeveloperName>EmailThreadId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementChannelType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Channel Type</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Engagement Channel Type</masterLabel>
+            <refAttrDeveloperName>EngagementChannelType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalBCCEmailAddressListText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External BCC Email Address List</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>External BCC Email Address List</masterLabel>
+            <refAttrDeveloperName>ExternalBCCEmailAddressListText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FirstOpenDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>First Open DateTime</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>First Open DateTime</masterLabel>
+            <refAttrDeveloperName>FirstOpenDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FromAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>From Address</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>From Address</masterLabel>
+            <refAttrDeveloperName>FromAddress</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FromName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>From Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>From Name</masterLabel>
+            <refAttrDeveloperName>FromName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HTMLBodyText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>HTML Body</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>HTML Body</masterLabel>
+            <refAttrDeveloperName>HTMLBodyText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasRelatedDocument__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Has Related Document</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Has Related Document</masterLabel>
+            <refAttrDeveloperName>HasRelatedDocument</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Email Message Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Email Message Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalBccEmailAddressListText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal BCC Email Address List</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal BCC Email Address List</masterLabel>
+            <refAttrDeveloperName>InternalBccEmailAddressListText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalCCEmailAddressListText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal CC Email Address List</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal CC Email Address List</masterLabel>
+            <refAttrDeveloperName>InternalCCEmailAddressListText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsBounced__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Bounced</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Bounced</masterLabel>
+            <refAttrDeveloperName>IsBounced</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsIncoming__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Incoming</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Incoming</masterLabel>
+            <refAttrDeveloperName>IsIncoming</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsOpened__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Opened</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Opened</masterLabel>
+            <refAttrDeveloperName>IsOpened</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsPrivateDraft__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Private Draft</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Private Draft</masterLabel>
+            <refAttrDeveloperName>IsPrivateDraft</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsTracked__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Tracked</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Tracked</masterLabel>
+            <refAttrDeveloperName>IsTracked</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified By</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Last Modified By</masterLabel>
+            <refAttrDeveloperName>LastModifiedById</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Last Modified Date</masterLabel>
+            <refAttrDeveloperName>LastModifiedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LatestOpenDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Latest Open DateTime</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Latest Open DateTime</masterLabel>
+            <refAttrDeveloperName>LatestOpenDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketJourneyActivity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Market Journey Activity</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Market Journey Activity</masterLabel>
+            <refAttrDeveloperName>MarketJourneyActivity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MessageDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Message Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Message Date</masterLabel>
+            <refAttrDeveloperName>MessageDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MessagePurpose__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Message Purpose</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Message Purpose</masterLabel>
+            <refAttrDeveloperName>MessagePurpose</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Name</masterLabel>
+            <refAttrDeveloperName>Name</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RelatedToId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Related To</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Related To</masterLabel>
+            <refAttrDeveloperName>RelatedToId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RelatedToObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Related To Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Related To Object</masterLabel>
+            <refAttrDeveloperName>RelatedToObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReplyToAddress__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reply To Address</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Reply To Address</masterLabel>
+            <refAttrDeveloperName>ReplyToAddress</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReplyToEmailMessageId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reply To Email Message</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Reply To Email Message</masterLabel>
+            <refAttrDeveloperName>ReplyToEmailMessageId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SoftwareApplication__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Software Application</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Software Application</masterLabel>
+            <refAttrDeveloperName>SoftwareApplication</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Subject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Subject</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Subject</masterLabel>
+            <refAttrDeveloperName>Subject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ToEmailAddressListText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>To Email Address List</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>To Email Address List</masterLabel>
+            <refAttrDeveloperName>ToEmailAddressListText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761226877_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailMessage_RelatedToId_map_Account_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>EmailMessage_RelatedToId_map_Account_rel</relationshipLabel>
+        <relationshipName>rel_1697761226877_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761230324_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailMessage_LastModifiedById_map_Us_rel</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>EmailMessage_LastModifiedById_map_Us_rel</relationshipLabel>
+        <relationshipName>rel_1697761230324_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1718549031408_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailMessage_ChannelEngagementId_map_rel</label>
+        <referenceTo>ssot__ChannelEngagement__dlm</referenceTo>
+        <relationshipLabel>EmailMessage_ChannelEngagementId_map_rel</relationshipLabel>
+        <relationshipName>rel_1718549031408_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Email Message</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Engagement</referenceEntityGroup>
+        <referenceEntityName>EmailMessage</referenceEntityName>
+        <referenceEntitySubjectArea>Engagement</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

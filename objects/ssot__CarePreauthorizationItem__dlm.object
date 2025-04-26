@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__CarePreauthorizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Preauthorization</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Care Preauthorization</masterLabel>
+            <refAttrDeveloperName>CarePreauthorizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CarePreauthorizationNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Preauthorization Note</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Care Preauthorization Note</masterLabel>
+            <refAttrDeveloperName>CarePreauthorizationNoteText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EndingServiceCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ending Service Code</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Ending Service Code</masterLabel>
+            <refAttrDeveloperName>EndingServiceCode</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Preauthorization Item Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Care Preauthorization Item Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ItemQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>ItemQuantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>ItemQuantity</masterLabel>
+            <refAttrDeveloperName>ItemQuantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Laterality__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Laterality</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Laterality</masterLabel>
+            <refAttrDeveloperName>Laterality</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Name</masterLabel>
+            <refAttrDeveloperName>Name</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PreauthitemSequenceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PreauthitemSequence</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>PreauthitemSequence</masterLabel>
+            <refAttrDeveloperName>PreauthitemSequenceNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SequenceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Sequence Number</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Sequence Number</masterLabel>
+            <refAttrDeveloperName>SequenceNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceSystemModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source System Modified Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Source System Modified Date</masterLabel>
+            <refAttrDeveloperName>SourceSystemModifiedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceSystemName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source System Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Source System Name</masterLabel>
+            <refAttrDeveloperName>SourceSystemName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__StartingServiceCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Starting Service Code</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Starting Service Code</masterLabel>
+            <refAttrDeveloperName>StartingServiceCode</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UnitValueText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unit Value</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Unit Value</masterLabel>
+            <refAttrDeveloperName>UnitValueText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726573342_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CarePreauthorizationItem_CarePreauth_rel</label>
+        <referenceTo>ssot__CarePreauthorization__dlm</referenceTo>
+        <relationshipLabel>CarePreauthorizationItem_CarePreauth_rel</relationshipLabel>
+        <relationshipName>rel_1716726573342_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Care Preauthorization Item</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Care Member Plan</referenceEntityGroup>
+        <referenceEntityName>CarePreauthorizationItem</referenceEntityName>
+        <referenceEntitySubjectArea>Care Member Plan</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

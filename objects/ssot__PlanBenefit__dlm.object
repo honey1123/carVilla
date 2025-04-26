@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__BenefitInformationText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Benefit Information</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Benefit Information</masterLabel>
+            <refAttrDeveloperName>BenefitInformationText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BenefitNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Benefit Note</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Benefit Note</masterLabel>
+            <refAttrDeveloperName>BenefitNoteText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CoinsuranceNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Coinsurance Note</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Coinsurance Note</masterLabel>
+            <refAttrDeveloperName>CoinsuranceNoteText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CommunicationEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Communication Effective Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Communication Effective Date</masterLabel>
+            <refAttrDeveloperName>CommunicationEffectiveDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CopayNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Copay Note</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Copay Note</masterLabel>
+            <refAttrDeveloperName>CopayNoteText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeductibleNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Deductible Notes</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Deductible Notes</masterLabel>
+            <refAttrDeveloperName>DeductibleNoteText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DocumentLocation__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Document Location</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Document Location</masterLabel>
+            <refAttrDeveloperName>DocumentLocation</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DocumentUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Document Url</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Document Url</masterLabel>
+            <refAttrDeveloperName>DocumentUrl</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EffectiveFromDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Effective From Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Effective From Date</masterLabel>
+            <refAttrDeveloperName>EffectiveFromDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EffectiveToDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Effective To Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Effective To Date</masterLabel>
+            <refAttrDeveloperName>EffectiveToDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmergencyDepartmentCopayAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Emergency Department Copay Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Emergency Department Copay Amount</masterLabel>
+            <refAttrDeveloperName>EmergencyDepartmentCopayAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Plan Benefit Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Plan Benefit Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNetworkCoinsuranceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Network Coinsurance Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>In Network Coinsurance Amount</masterLabel>
+            <refAttrDeveloperName>InNetworkCoinsuranceAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNetworkCoinsurancePercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Network Coinsurance Percentage</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>In Network Coinsurance Percentage</masterLabel>
+            <refAttrDeveloperName>InNetworkCoinsurancePercent</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNetworkFamilyDeductibleAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Network Family Deductible Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>In Network Family Deductible Amount</masterLabel>
+            <refAttrDeveloperName>InNetworkFamilyDeductibleAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNetworkFamilyOutofPocketAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Network Family Outof Pocket Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>In Network Family Outof Pocket Amount</masterLabel>
+            <refAttrDeveloperName>InNetworkFamilyOutofPocketAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNetworkIndividualDeductibleAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Network Individual Deductible Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>In Network Individual Deductible Amount</masterLabel>
+            <refAttrDeveloperName>InNetworkIndividualDeductibleAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNetworkLifetimeMembershipMaxAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Network Lifetime Membership Max Amt</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>In Network Lifetime Membership Max Amt</masterLabel>
+            <refAttrDeveloperName>InNetworkLifetimeMembershipMaxAmt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InNtwkIndividualOutofPocketAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>In Ntwk Individual Outof Pocket Amt</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>In Ntwk Individual Outof Pocket Amt</masterLabel>
+            <refAttrDeveloperName>InNtwkIndividualOutofPocketAmt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaximumLifetimeMembershipNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Maximum Lifetime Membership Note</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Maximum Lifetime Membership Note</masterLabel>
+            <refAttrDeveloperName>MaximumLifetimeMembershipNoteText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Name</masterLabel>
+            <refAttrDeveloperName>Name</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNetworkCoinsuranceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Network Coinsurance Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Outof Network Coinsurance Amount</masterLabel>
+            <refAttrDeveloperName>OutofNetworkCoinsuranceAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNetworkCoinsurancePercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Network Coinsurance Percentage</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Outof Network Coinsurance Percentage</masterLabel>
+            <refAttrDeveloperName>OutofNetworkCoinsurancePercent</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNetworkFamilyDeductibleAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Network Family Deductible Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Outof Network Family Deductible Amount</masterLabel>
+            <refAttrDeveloperName>OutofNetworkFamilyDeductibleAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNetworkFamilyOutofPocketAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Network Family Outof Pocket Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Outof Network Family Outof Pocket Amount</masterLabel>
+            <refAttrDeveloperName>OutofNetworkFamilyOutofPocketAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNtwkIndividualDeductibleAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Ntwk Individual Deductible Amt</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Outof Ntwk Individual Deductible Amt</masterLabel>
+            <refAttrDeveloperName>OutofNtwkIndividualDeductibleAmt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNtwkIndividualOutofPocketAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Ntwk Individual Outof Pocket Amt</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Outof Ntwk Individual Outof Pocket Amt</masterLabel>
+            <refAttrDeveloperName>OutofNtwkIndividualOutofPocketAmt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofNtwkMaxLifetimeMembershipAmt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Ntwk Max Lifetime Membership Amt</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Outof Ntwk Max Lifetime Membership Amt</masterLabel>
+            <refAttrDeveloperName>OutofNtwkMaxLifetimeMembershipAmt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OutofPocketNoteText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Outof Pocket Note</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Outof Pocket Note</masterLabel>
+            <refAttrDeveloperName>OutofPocketNoteText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PlanBenefitStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PlanBenefitStatus</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>PlanBenefitStatus</masterLabel>
+            <refAttrDeveloperName>PlanBenefitStatus</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryCareCopayAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Care Copay Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Primary Care Copay Amount</masterLabel>
+            <refAttrDeveloperName>PrimaryCareCopayAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PurchaserPlanId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Purchaser Plan</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Purchaser Plan</masterLabel>
+            <refAttrDeveloperName>PurchaserPlanId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceSystemModified__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source System Modified Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Source System Modified Date</masterLabel>
+            <refAttrDeveloperName>SourceSystemModified</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceSystemName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source System Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Source System Name</masterLabel>
+            <refAttrDeveloperName>SourceSystemName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SpecialistCopayAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Specialist Copay Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Specialist Copay Amount</masterLabel>
+            <refAttrDeveloperName>SpecialistCopayAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UrgentCareCopayAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Urgent Care Copay Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Urgent Care Copay Amount</masterLabel>
+            <refAttrDeveloperName>UrgentCareCopayAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716723733827_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>PlanBenefit_PurchaserPlanId_map_Purc_rel</label>
+        <referenceTo>ssot__PurchaserPlan__dlm</referenceTo>
+        <relationshipLabel>PlanBenefit_PurchaserPlanId_map_Purc_rel</relationshipLabel>
+        <relationshipName>rel_1716723733827_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Plan Benefit</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Care Member Plan</referenceEntityGroup>
+        <referenceEntityName>PlanBenefit</referenceEntityName>
+        <referenceEntitySubjectArea>Care Member Plan</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

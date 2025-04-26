@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__CurrencyCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Currency Code</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Currency Code</masterLabel>
+            <refAttrDeveloperName>CurrencyCode</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Description</masterLabel>
+            <refAttrDeveloperName>Description</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FulfilledQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fulfilled Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Fulfilled Quantity</masterLabel>
+            <refAttrDeveloperName>FulfilledQuantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FulfillmentOrderId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fulfillment Order</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Fulfillment Order</masterLabel>
+            <refAttrDeveloperName>FulfillmentOrderId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GrandTotalAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Grand Total Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Grand Total Amount</masterLabel>
+            <refAttrDeveloperName>GrandTotalAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GrossUnitPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gross Unit Price</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Gross Unit Price</masterLabel>
+            <refAttrDeveloperName>GrossUnitPrice</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Fulfillment Order Product Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Fulfillment Order Product Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Name</masterLabel>
+            <refAttrDeveloperName>Name</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Number__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Number</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Number</masterLabel>
+            <refAttrDeveloperName>Number</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OrderedQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ordered Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Ordered Quantity</masterLabel>
+            <refAttrDeveloperName>OrderedQuantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OriginalSalesOrderProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Original Sales Order Product</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Original Sales Order Product</masterLabel>
+            <refAttrDeveloperName>OriginalSalesOrderProductId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Product Amount</masterLabel>
+            <refAttrDeveloperName>ProductAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProvisioningDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Provisioning Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Provisioning Date</masterLabel>
+            <refAttrDeveloperName>ProvisioningDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__QuantityUnitOfMeasure__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Quantity Unit Of Measure</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Quantity Unit Of Measure</masterLabel>
+            <refAttrDeveloperName>QuantityUnitOfMeasure</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestedEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requested End Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Requested End Date</masterLabel>
+            <refAttrDeveloperName>RequestedEndDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestedStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requested Start Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Requested Start Date</masterLabel>
+            <refAttrDeveloperName>RequestedStartDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SalesOrderProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Sales Order Product</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Sales Order Product</masterLabel>
+            <refAttrDeveloperName>SalesOrderProductId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalAdjustmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Adjustment Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Adjustment Amount</masterLabel>
+            <refAttrDeveloperName>TotalAdjustmentAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalAdjustmentTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Adjustment Tax Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Adjustment Tax Amount</masterLabel>
+            <refAttrDeveloperName>TotalAdjustmentTaxAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Amount</masterLabel>
+            <refAttrDeveloperName>TotalAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalLineAmountWithTax__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Line Amount With Tax</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Line Amount With Tax</masterLabel>
+            <refAttrDeveloperName>TotalLineAmountWithTax</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalOrderProductAdjTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Order Product Adj Tax Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Order Product Adj Tax Amount</masterLabel>
+            <refAttrDeveloperName>TotalOrderProductAdjTaxAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalProductAdjAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Product Adjustment Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Product Adjustment Amount</masterLabel>
+            <refAttrDeveloperName>TotalProductAdjAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalProductAdjTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Product Adjustment Tax Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Product Adjustment Tax Amount</masterLabel>
+            <refAttrDeveloperName>TotalProductAdjTaxAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalProductDstribAdjAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Product Distributed Adj Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Product Distributed Adj Amount</masterLabel>
+            <refAttrDeveloperName>TotalProductDstribAdjAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalProductDstribAdjTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Product Distributed Adj Tax Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Product Distributed Adj Tax Amount</masterLabel>
+            <refAttrDeveloperName>TotalProductDstribAdjTaxAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalProductTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Product Tax Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Product Tax Amount</masterLabel>
+            <refAttrDeveloperName>TotalProductTaxAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalTaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Tax Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Tax Amount</masterLabel>
+            <refAttrDeveloperName>TotalTaxAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UnitPriceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unit Price Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Unit Price Amount</masterLabel>
+            <refAttrDeveloperName>UnitPriceAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761213946_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>FulfillmentOrderProduct_FulfillmentO_rel</label>
+        <referenceTo>ssot__FulfillmentOrder__dlm</referenceTo>
+        <relationshipLabel>FulfillmentOrderProduct_FulfillmentO_rel</relationshipLabel>
+        <relationshipName>rel_1697761213946_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761214184_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>FulfillmentOrderProduct_OriginalSale_rel</label>
+        <referenceTo>ssot__SalesOrderProduct__dlm</referenceTo>
+        <relationshipLabel>FulfillmentOrderProduct_OriginalSale_rel</relationshipLabel>
+        <relationshipName>rel_1697761214184_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761214256_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>FulfillmentOrderProduct_SalesOrderPr_rel</label>
+        <referenceTo>ssot__SalesOrderProduct__dlm</referenceTo>
+        <relationshipLabel>FulfillmentOrderProduct_SalesOrderPr_rel</relationshipLabel>
+        <relationshipName>rel_1697761214256_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Fulfillment Order Product</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Fulfillment Order</referenceEntityGroup>
+        <referenceEntityName>FulfillmentOrderProduct</referenceEntityName>
+        <referenceEntitySubjectArea>Fulfillment Order</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

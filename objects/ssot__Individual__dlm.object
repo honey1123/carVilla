@@ -1,0 +1,2291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AdvancementGraduationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Advancement Graduation Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Advancement Graduation Date</masterLabel>
+            <refAttrDeveloperName>AdvancementGraduationDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Age__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Age</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Age</masterLabel>
+            <refAttrDeveloperName>Age</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AverageOrderAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Average Order Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Average Order Amount</masterLabel>
+            <refAttrDeveloperName>AverageOrderAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BirthDateDay__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Birth Date Day</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Birth Date Day</masterLabel>
+            <refAttrDeveloperName>BirthDateDay</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BirthDateMonth__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Birth Date Month</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Birth Date Month</masterLabel>
+            <refAttrDeveloperName>BirthDateMonth</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BirthDateYear__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Birth Date Year</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Birth Date Year</masterLabel>
+            <refAttrDeveloperName>BirthDateYear</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BirthDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Birth Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Birth Date</masterLabel>
+            <refAttrDeveloperName>BirthDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BirthPlace__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Birth Place</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Birth Place</masterLabel>
+            <refAttrDeveloperName>BirthPlace</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CanStorePIIElsewhere__c</fullName>
+        <deprecated>false</deprecated>
+        <label>OK To Store PII Data Elsewhere</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>OK To Store PII Data Elsewhere</masterLabel>
+            <refAttrDeveloperName>CanStorePIIElsewhere</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ChildrenCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Children Count</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Children Count</masterLabel>
+            <refAttrDeveloperName>ChildrenCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ConsumerCreditScoreProviderName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Consumer Credit Score Provider Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Consumer Credit Score Provider Name</masterLabel>
+            <refAttrDeveloperName>ConsumerCreditScoreProviderName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ConsumerCreditScore__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Consumer Credit Score</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Consumer Credit Score</masterLabel>
+            <refAttrDeveloperName>ConsumerCreditScore</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ConvictionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Convictions Count</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Convictions Count</masterLabel>
+            <refAttrDeveloperName>ConvictionsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Created Date</masterLabel>
+            <refAttrDeveloperName>CreatedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreationEventId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Creation Event</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Creation Event</masterLabel>
+            <refAttrDeveloperName>CreationEventId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreationEventObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Creation Event Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Creation Event Object</masterLabel>
+            <refAttrDeveloperName>CreationEventObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurrentEmployerName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Current Employer Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Current Employer Name</masterLabel>
+            <refAttrDeveloperName>CurrentEmployerName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeathDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Death Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Death Date</masterLabel>
+            <refAttrDeveloperName>DeathDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeathPlace__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Death Place</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Death Place</masterLabel>
+            <refAttrDeveloperName>DeathPlace</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DependentCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Dependent Count</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Dependent Count</masterLabel>
+            <refAttrDeveloperName>DependentCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoExtractMyDataUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Extract My Data Update Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Do Extract My Data Update Date</masterLabel>
+            <refAttrDeveloperName>DoExtractMyDataUpdateDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoForgetMeFromUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Forget Me Update Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Do Forget Me Update Date</masterLabel>
+            <refAttrDeveloperName>DoForgetMeFromUpdateDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotMarketFromUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Market Update Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Do Not Market Update Date</masterLabel>
+            <refAttrDeveloperName>DoNotMarketFromUpdateDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotProcessFromUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Process Update Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Do Not Process Update Date</masterLabel>
+            <refAttrDeveloperName>DoNotProcessFromUpdateDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotProcessReasonId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Process Reason</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Do Not Process Reason</masterLabel>
+            <refAttrDeveloperName>DoNotProcessReasonId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotProcessReason__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Do Not Process Reason</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>[DoNotUse]Do Not Process Reason</masterLabel>
+            <refAttrDeveloperName>DoNotProcessReason</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotProfileFromUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Profile Update Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Do Not Profile Update Date</masterLabel>
+            <refAttrDeveloperName>DoNotProfileFromUpdateDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotTrackLocationUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Track Location Update Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Do Not Track Location Update Date</masterLabel>
+            <refAttrDeveloperName>DoNotTrackLocationUpdateDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoNotTrackUpdateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Track Update Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Do Not Track Update Date</masterLabel>
+            <refAttrDeveloperName>DoNotTrackUpdateDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DoesPreferSustainableProduct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Prefer Sustainable Product</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Prefer Sustainable Product</masterLabel>
+            <refAttrDeveloperName>DoesPreferSustainableProduct</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EducationalAdvancementType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Educational Advancement Type</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Educational Advancement Type</masterLabel>
+            <refAttrDeveloperName>EducationalAdvancementType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EmployedSinceDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Employed Since Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Employed Since Date</masterLabel>
+            <refAttrDeveloperName>EmployedSinceDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EthnicityId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ethnicity</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Ethnicity</masterLabel>
+            <refAttrDeveloperName>EthnicityId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Record Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>External Record Id</masterLabel>
+            <refAttrDeveloperName>ExternalRecordId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>External Source Id</masterLabel>
+            <refAttrDeveloperName>ExternalSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FirstName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>First Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>First Name</masterLabel>
+            <refAttrDeveloperName>FirstName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GenderId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gender</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Gender</masterLabel>
+            <refAttrDeveloperName>GenderId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GenderIdentity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Gender Identity</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Gender Identity</masterLabel>
+            <refAttrDeveloperName>GenderIdentity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GenerationalCohort__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Generational Cohort</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Generational Cohort</masterLabel>
+            <refAttrDeveloperName>GenerationalCohort</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GlobalPartyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Global Party</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Global Party</masterLabel>
+            <refAttrDeveloperName>GlobalPartyId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GraduationAchievement__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Graduation Achievement</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Graduation Achievement</masterLabel>
+            <refAttrDeveloperName>GraduationAchievement</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__GraduationCohort__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Graduation Cohort</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Graduation Cohort</masterLabel>
+            <refAttrDeveloperName>GraduationCohort</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasAlcoholAbuseHistory__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Has Alcohol Abuse History</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Has Alcohol Abuse History</masterLabel>
+            <refAttrDeveloperName>HasAlcoholAbuseHistory</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasDrugAbuseHistory__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Has Drug Abuse History</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Has Drug Abuse History</masterLabel>
+            <refAttrDeveloperName>HasDrugAbuseHistory</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasFerpaParentalDisclosure__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>FERPA Parental Disclosure</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>FERPA Parental Disclosure</masterLabel>
+            <refAttrDeveloperName>HasFerpaParentalDisclosure</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasFerpaThrdPtyDisclosure__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>FERPA Third-Party Disclosure</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>FERPA Third-Party Disclosure</masterLabel>
+            <refAttrDeveloperName>HasFerpaThrdPtyDisclosure</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasOptedOutGeoTracking__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Block Geolocation Tracking</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Block Geolocation Tracking</masterLabel>
+            <refAttrDeveloperName>HasOptedOutGeoTracking</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasOptedOutProcessing__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Process</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Do Not Process</masterLabel>
+            <refAttrDeveloperName>HasOptedOutProcessing</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasOptedOutProfiling__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Profile</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Do Not Profile</masterLabel>
+            <refAttrDeveloperName>HasOptedOutProfiling</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasOptedOutSolicit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Solicit</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Do Not Solicit</masterLabel>
+            <refAttrDeveloperName>HasOptedOutSolicit</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasOptedOutTracking__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Do Not Track</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Do Not Track</masterLabel>
+            <refAttrDeveloperName>HasOptedOutTracking</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HighestEducationLevelId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Highest Education Level</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Highest Education Level</masterLabel>
+            <refAttrDeveloperName>HighestEducationLevelId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HospitalizationsLast5YearsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Hospitalizations Last 5 Years Count</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Hospitalizations Last 5 Years Count</masterLabel>
+            <refAttrDeveloperName>HospitalizationsLast5YearsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Individual Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Individual Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InfluencerRating__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Influencer Rating</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Influencer Rating</masterLabel>
+            <refAttrDeveloperName>InfluencerRating</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsAlcoholConsumer__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Alcohol Consumer</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Alcohol Consumer</masterLabel>
+            <refAttrDeveloperName>IsAlcoholConsumer</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsAnonymous__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Anonymous</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Anonymous</masterLabel>
+            <refAttrDeveloperName>IsAnonymous</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsDeceased__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Deceased</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Deceased</masterLabel>
+            <refAttrDeveloperName>IsDeceased</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsDrugConsumer__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Drug Consumer</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Drug Consumer</masterLabel>
+            <refAttrDeveloperName>IsDrugConsumer</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsFirstGenerationStudent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is First Generation Student</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is First Generation Student</masterLabel>
+            <refAttrDeveloperName>IsFirstGenerationStudent</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsGoodDriver__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Good Driver</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Good Driver</masterLabel>
+            <refAttrDeveloperName>IsGoodDriver</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsGoodStudent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Good Student</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Good Student</masterLabel>
+            <refAttrDeveloperName>IsGoodStudent</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsHighRiskHobby__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is High Risk Hobby</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is High Risk Hobby</masterLabel>
+            <refAttrDeveloperName>IsHighRiskHobby</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsHighRiskOccupation__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is High Risk Occupation</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is High Risk Occupation</masterLabel>
+            <refAttrDeveloperName>IsHighRiskOccupation</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsHomeOwner__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Home Owner</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Home Owner</masterLabel>
+            <refAttrDeveloperName>IsHomeOwner</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsTobaccoConsume__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Tobacco Consumer</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Tobacco Consumer</masterLabel>
+            <refAttrDeveloperName>IsTobaccoConsume</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Last Modified Date</masterLabel>
+            <refAttrDeveloperName>LastModifiedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Last Name</masterLabel>
+            <refAttrDeveloperName>LastName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocationText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Location</masterLabel>
+            <refAttrDeveloperName>LocationText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MailingName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Mailing Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Mailing Name</masterLabel>
+            <refAttrDeveloperName>MailingName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainDietaryHabitTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Dietary Habit Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Main Dietary Habit Type</masterLabel>
+            <refAttrDeveloperName>MainDietaryHabitTypeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainDisabilityTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Disability Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Main Disability Type</masterLabel>
+            <refAttrDeveloperName>MainDisabilityTypeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainLifeAttitudeTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Life Attitude Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Main Life Attitude Type</masterLabel>
+            <refAttrDeveloperName>MainLifeAttitudeTypeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainLifeStyleTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Life Style Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Main Life Style Type</masterLabel>
+            <refAttrDeveloperName>MainLifeStyleTypeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainPersonalValueTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Personal Value Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Main Personal Value Type</masterLabel>
+            <refAttrDeveloperName>MainPersonalValueTypeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MainPersonalityTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Main Personality Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Main Personality Type</masterLabel>
+            <refAttrDeveloperName>MainPersonalityTypeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MajorCitationCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Major Citation Count</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Major Citation Count</masterLabel>
+            <refAttrDeveloperName>MajorCitationCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MaritalStatusId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Marital Status</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Marital Status</masterLabel>
+            <refAttrDeveloperName>MaritalStatusId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MiddleName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Middle Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Middle Name</masterLabel>
+            <refAttrDeveloperName>MiddleName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MilitaryBranch__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Military Branch</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Military Branch</masterLabel>
+            <refAttrDeveloperName>MilitaryBranch</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MilitaryServiceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Military Service</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Military Service</masterLabel>
+            <refAttrDeveloperName>MilitaryServiceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MilitaryStatusId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Military Status</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Military Status</masterLabel>
+            <refAttrDeveloperName>MilitaryStatusId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MinorCitationCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Minor Citation Count</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Minor Citation Count</masterLabel>
+            <refAttrDeveloperName>MinorCitationCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MothersMaidenName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Mothers Maiden Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Mothers Maiden Name</masterLabel>
+            <refAttrDeveloperName>MothersMaidenName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NameSuffix__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name Suffix</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Name Suffix</masterLabel>
+            <refAttrDeveloperName>NameSuffix</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NetWorth__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Net Worth</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Net Worth</masterLabel>
+            <refAttrDeveloperName>NetWorth</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__NoMergeReasonId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>No Merge Reason</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>No Merge Reason</masterLabel>
+            <refAttrDeveloperName>NoMergeReasonId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OccupationTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Occupation Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Occupation Type</masterLabel>
+            <refAttrDeveloperName>OccupationTypeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Occupation__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Occupation</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Occupation</masterLabel>
+            <refAttrDeveloperName>Occupation</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OfficialName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Official Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Official Name</masterLabel>
+            <refAttrDeveloperName>OfficialName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OrderingName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ordering Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Ordering Name</masterLabel>
+            <refAttrDeveloperName>OrderingName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OriginCountryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Origin Country</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Origin Country</masterLabel>
+            <refAttrDeveloperName>OriginCountryId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OverAgeNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Over Age</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Over Age</masterLabel>
+            <refAttrDeveloperName>OverAgeNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyAdditionalNames__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PartyAdditionalNames relationship</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>PartyAdditionalNames relationship</masterLabel>
+            <refAttrDeveloperName>PartyAdditionalNames</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Party</masterLabel>
+            <refAttrDeveloperName>PartyId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyRoles__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PartyRoles relationship</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>PartyRoles relationship</masterLabel>
+            <refAttrDeveloperName>PartyRoles</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Party Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Party Type</masterLabel>
+            <refAttrDeveloperName>PartyTypeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PartyWebAddresses__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PartyWebAddresses relationship</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>PartyWebAddresses relationship</masterLabel>
+            <refAttrDeveloperName>PartyWebAddresses</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonEducations__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PersonEducations relationship</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>PersonEducations relationship</masterLabel>
+            <refAttrDeveloperName>PersonEducations</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonEmployments__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PersonEmployments relationship</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>PersonEmployments relationship</masterLabel>
+            <refAttrDeveloperName>PersonEmployments</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonHeightUnitofMeasureId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Person Height Unit of Measure</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Person Height Unit of Measure</masterLabel>
+            <refAttrDeveloperName>PersonHeightUnitofMeasureId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonHeight__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Person Height</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Person Height</masterLabel>
+            <refAttrDeveloperName>PersonHeight</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonLanguages__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PersonLanguages relationship</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>PersonLanguages relationship</masterLabel>
+            <refAttrDeveloperName>PersonLanguages</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonLifeEvents__c</fullName>
+        <deprecated>false</deprecated>
+        <label>PersonLifeEvents relationship</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>PersonLifeEvents relationship</masterLabel>
+            <refAttrDeveloperName>PersonLifeEvents</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonLifeStageId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Secondary Citizenship Country</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Secondary Citizenship Country</masterLabel>
+            <refAttrDeveloperName>PersonLifeStageId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonLifeStage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Person Life Stage</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Person Life Stage</masterLabel>
+            <refAttrDeveloperName>PersonLifeStage</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Person Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Person Name</masterLabel>
+            <refAttrDeveloperName>PersonName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonWeightUnitofMeasureId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Person Weight Unit of Measure</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Person Weight Unit of Measure</masterLabel>
+            <refAttrDeveloperName>PersonWeightUnitofMeasureId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PersonWeight__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Person Weight</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Person Weight</masterLabel>
+            <refAttrDeveloperName>PersonWeight</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PhotoURL__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Photo URL</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Photo URL</masterLabel>
+            <refAttrDeveloperName>PhotoURL</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PreferredName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Preferred Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Preferred Name</masterLabel>
+            <refAttrDeveloperName>PreferredName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryAccountId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Account</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Primary Account</masterLabel>
+            <refAttrDeveloperName>PrimaryAccountId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryAddressId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Address</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Primary Address</masterLabel>
+            <refAttrDeveloperName>PrimaryAddressId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryCitizenshipCountryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Citizenship Country</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Primary Citizenship Country</masterLabel>
+            <refAttrDeveloperName>PrimaryCitizenshipCountryId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryCitizenshipCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Primary Citizenship Country</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>[DoNotUse]Primary Citizenship Country</masterLabel>
+            <refAttrDeveloperName>PrimaryCitizenshipCountry</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryCitizenshipType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Citizenship Type</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Primary Citizenship Type</masterLabel>
+            <refAttrDeveloperName>PrimaryCitizenshipType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryHobbyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Hobby</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Primary Hobby</masterLabel>
+            <refAttrDeveloperName>PrimaryHobbyId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryHobby__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Primary Hobby</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>[DoNotUse]Primary Hobby</masterLabel>
+            <refAttrDeveloperName>PrimaryHobby</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryHouseholdId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Household</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Primary Household</masterLabel>
+            <refAttrDeveloperName>PrimaryHouseholdId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryLanguageId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Primary Language</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Primary Language</masterLabel>
+            <refAttrDeveloperName>PrimaryLanguageId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PrimaryLanguage__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Primary Language</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>[DoNotUse]Primary Language</masterLabel>
+            <refAttrDeveloperName>PrimaryLanguage</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Pronoun__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Pronoun</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Pronoun</masterLabel>
+            <refAttrDeveloperName>Pronoun</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Race__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Race</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Race</masterLabel>
+            <refAttrDeveloperName>Race</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReligionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Religion</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Religion</masterLabel>
+            <refAttrDeveloperName>ReligionId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Religion__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Religion</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>[DoNotUse]Religion</masterLabel>
+            <refAttrDeveloperName>Religion</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResidenceCaptureMethodId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Residence Capture Method</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Residence Capture Method</masterLabel>
+            <refAttrDeveloperName>ResidenceCaptureMethodId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResidenceCaptureMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Residence Capture Method</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>[DoNotUse]Residence Capture Method</masterLabel>
+            <refAttrDeveloperName>ResidenceCaptureMethod</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResidenceCountryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Residence Country</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Residence Country</masterLabel>
+            <refAttrDeveloperName>ResidenceCountryId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResidenceCountryName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Residence Country Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Residence Country Name</masterLabel>
+            <refAttrDeveloperName>ResidenceCountryName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ResidenceCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Residence Country</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>[DoNotUse]Residence Country</masterLabel>
+            <refAttrDeveloperName>ResidenceCountry</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Salutation__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Salutation</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Salutation</masterLabel>
+            <refAttrDeveloperName>Salutation</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SecondLastName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Second Last Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Second Last Name</masterLabel>
+            <refAttrDeveloperName>SecondLastName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SecondaryCitizenshipCountryId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Secondary Citizenship Country Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Secondary Citizenship Country Id</masterLabel>
+            <refAttrDeveloperName>SecondaryCitizenshipCountryId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SecondaryCitizenshipCountry__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Secondary Citizenship Country</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>[DoNotUse]Secondary Citizenship Country</masterLabel>
+            <refAttrDeveloperName>SecondaryCitizenshipCountry</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SecondaryCitizenshipType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Secondary Citizenship Type</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Secondary Citizenship Type</masterLabel>
+            <refAttrDeveloperName>SecondaryCitizenshipType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SendIndividualData__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Export Individual&apos;s Data</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Export Individual&apos;s Data</masterLabel>
+            <refAttrDeveloperName>SendIndividualData</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShouldForget__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Forget This Individual</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Forget This Individual</masterLabel>
+            <refAttrDeveloperName>ShouldForget</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SurgeriesLast5YearsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Surgeries Last 5 Years Count</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Surgeries Last 5 Years Count</masterLabel>
+            <refAttrDeveloperName>SurgeriesLast5YearsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxBracketRange__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Bracket Range</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Tax Bracket Range</masterLabel>
+            <refAttrDeveloperName>TaxBracketRange</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TitleName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Title</label>
+        <length>50</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Title</masterLabel>
+            <refAttrDeveloperName>TitleName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WebSiteURL__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Web Site URL</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Web Site URL</masterLabel>
+            <refAttrDeveloperName>WebSiteURL</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__WeddingAnniversaryDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Wedding Anniversary Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Wedding Anniversary Date</masterLabel>
+            <refAttrDeveloperName>WeddingAnniversaryDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__YearlyIncomeCurrencyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Yearly Income Currency</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Yearly Income Currency</masterLabel>
+            <refAttrDeveloperName>YearlyIncomeCurrencyId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__YearlyIncomeCurrency__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Yearly Income Currency</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>[DoNotUse]Yearly Income Currency</masterLabel>
+            <refAttrDeveloperName>YearlyIncomeCurrency</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__YearlyIncomeRangeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Yearly Income Range</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Yearly Income Range</masterLabel>
+            <refAttrDeveloperName>YearlyIncomeRangeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__YearlyIncomeRange__c</fullName>
+        <deprecated>false</deprecated>
+        <label>[DoNotUse]Yearly Income Range</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>[DoNotUse]Yearly Income Range</masterLabel>
+            <refAttrDeveloperName>YearlyIncomeRange</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__YearlyIncome__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Yearly Income</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Yearly Income</masterLabel>
+            <refAttrDeveloperName>YearlyIncome</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761151778_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Account_Id_map_Individual_PrimaryAcc_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>Account_Id_map_Individual_PrimaryAcc_rel</relationshipLabel>
+        <relationshipName>rel_1697761151778_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761177549_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>Individual_PrimaryAccountId_map_Acco_rel</label>
+        <referenceTo>ssot__Account__dlm</referenceTo>
+        <relationshipLabel>Individual_PrimaryAccountId_map_Acco_rel</relationshipLabel>
+        <relationshipName>rel_1697761177549_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <description>Represents a person.</description>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Individual</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Profile</objectCategory>
+        <referenceEntityGroup>Party</referenceEntityGroup>
+        <referenceEntityName>Individual</referenceEntityName>
+        <referenceEntitySubjectArea>Party</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

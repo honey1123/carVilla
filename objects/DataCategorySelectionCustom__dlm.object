@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>CreatedById__c</fullName>
+        <label>Created By</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Created By</labelOverride>
+            <masterLabel>Created By</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>CreatedDate__c</fullName>
+        <label>Created Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Created Date</labelOverride>
+            <masterLabel>Created Date</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DataCategoryGroupId__c</fullName>
+        <label>Data Category Group</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Category Group</labelOverride>
+            <masterLabel>Data Category Group</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>DataCategoryId__c</fullName>
+        <label>Data Category</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Category</labelOverride>
+            <masterLabel>Data Category</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>DataSourceObject__c</fullName>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Source Object</labelOverride>
+            <masterLabel>Data Source Object</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>DataSource__c</fullName>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Source</labelOverride>
+            <masterLabel>Data Source</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Id__c</fullName>
+        <label>Entity Data Category Selection ID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Entity Data Category Selection ID</labelOverride>
+            <masterLabel>Entity Data Category Selection ID</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>InternalOrganization__c</fullName>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Internal Organization</labelOverride>
+            <masterLabel>Internal Organization</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_Id__c</fullName>
+        <label>Key Qualifier Entity Data Category Selec</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Key Qualifier Entity Data Category Selection ID</labelOverride>
+            <masterLabel>Key Qualifier Entity Data Category Selec</masterLabel>
+            <refAttrDeveloperName>KQ_Id</refAttrDeveloperName>
+            <usageTag>KeyQualifier</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ParentId__c</fullName>
+        <label>Knowledge Article Version</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Knowledge Article Version</labelOverride>
+            <masterLabel>Knowledge Article Version</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Custom</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <description>DataCategorySelectionCustom__dlm</description>
+        <isEnabled>true</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <labelOverride>DataCategorySelectionCustom__dlm</labelOverride>
+        <masterLabel>DataCategorySelectionCustom__dlm</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Related</objectCategory>
+    </mktDataModelAttributes>
+</CustomObject>

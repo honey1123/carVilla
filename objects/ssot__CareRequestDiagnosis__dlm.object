@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__CareRequestCaseID__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Request Case</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Care Request Case</masterLabel>
+            <refAttrDeveloperName>CareRequestCaseID</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CareRequestId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Request</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Care Request</masterLabel>
+            <refAttrDeveloperName>CareRequestId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CodeDescriptionText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Code Description</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Code Description</masterLabel>
+            <refAttrDeveloperName>CodeDescriptionText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CodeTypeIdentifierText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Code Type Identifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Code Type Identifier</masterLabel>
+            <refAttrDeveloperName>CodeTypeIdentifierText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CodeTypeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Code Type</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Code Type</masterLabel>
+            <refAttrDeveloperName>CodeTypeText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DiagnosisCodeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Diagnosis Code</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Diagnosis Code</masterLabel>
+            <refAttrDeveloperName>DiagnosisCodeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DiagnosisCodeSetId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Diagnosis Code Set</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Diagnosis Code Set</masterLabel>
+            <refAttrDeveloperName>DiagnosisCodeSetId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DiagnosisCodeSetObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Diagnosis Code Set Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Diagnosis Code Set Object</masterLabel>
+            <refAttrDeveloperName>DiagnosisCodeSetObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DiagnosisEffectiveDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Diagnosis Effective Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Diagnosis Effective Date</masterLabel>
+            <refAttrDeveloperName>DiagnosisEffectiveDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DiagnosisEndDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Diagnosis End Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Diagnosis End Date</masterLabel>
+            <refAttrDeveloperName>DiagnosisEndDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DischargeCodeDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Discharge Code Description</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Discharge Code Description</masterLabel>
+            <refAttrDeveloperName>DischargeCodeDescription</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DischargeCodeTypeIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Discharge Code Type Identifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Discharge Code Type Identifier</masterLabel>
+            <refAttrDeveloperName>DischargeCodeTypeIdentifier</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DischargeCodeType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Discharge Code Type</label>
+        <length>40</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Discharge Code Type</masterLabel>
+            <refAttrDeveloperName>DischargeCodeType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DischargeCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Discharge Code</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Discharge Code</masterLabel>
+            <refAttrDeveloperName>DischargeCode</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DischargeDiagnosisCodeSetId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Discharge Diagnostic Code Set</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Discharge Diagnostic Code Set</masterLabel>
+            <refAttrDeveloperName>DischargeDiagnosisCodeSetId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DischargeDiagnosisCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Discharge Diagnosis Code</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Discharge Diagnosis Code</masterLabel>
+            <refAttrDeveloperName>DischargeDiagnosisCode</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DischargeDiagnosisEffectiveDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Discharge Diagnosis Effective Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Discharge Diagnosis Effective Date</masterLabel>
+            <refAttrDeveloperName>DischargeDiagnosisEffectiveDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DischargeDiagnosisEndDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Discharge Diagnosis End Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Discharge Diagnosis End Date</masterLabel>
+            <refAttrDeveloperName>DischargeDiagnosisEndDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DischargeDiagnosticCodeSetObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Discharge Diagnostic Code Set Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Discharge Diagnostic Code Set Object</masterLabel>
+            <refAttrDeveloperName>DischargeDiagnosticCodeSetObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HealthConditionId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Health Condition</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Health Condition</masterLabel>
+            <refAttrDeveloperName>HealthConditionId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Diagnosis Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Care Diagnosis Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsDiagnosisPrimary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Diagnosis Primary</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Diagnosis Primary</masterLabel>
+            <refAttrDeveloperName>IsDiagnosisPrimary</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsDischargeDiagnosisPrimary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Discharge Diagnosis Primary</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Discharge Diagnosis Primary</masterLabel>
+            <refAttrDeveloperName>IsDischargeDiagnosisPrimary</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsModifiedDiagnosisPrimary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Modified Diagnosis Primary</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Modified Diagnosis Primary</masterLabel>
+            <refAttrDeveloperName>IsModifiedDiagnosisPrimary</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedCodeDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Code Description</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Code Description</masterLabel>
+            <refAttrDeveloperName>ModifiedCodeDescription</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedCodeTypeIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Code Type Identifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Code Type Identifier</masterLabel>
+            <refAttrDeveloperName>ModifiedCodeTypeIdentifier</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedCodeType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Code Type</label>
+        <length>40</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Code Type</masterLabel>
+            <refAttrDeveloperName>ModifiedCodeType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedCode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Code</label>
+        <length>32</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Code</masterLabel>
+            <refAttrDeveloperName>ModifiedCode</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedDiagnosisCodeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Diagnosis Code</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Diagnosis Code</masterLabel>
+            <refAttrDeveloperName>ModifiedDiagnosisCodeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedDiagnosisCodeSetObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Diagnosis Code Set Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Diagnosis Code Set Object</masterLabel>
+            <refAttrDeveloperName>ModifiedDiagnosisCodeSetObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedDiagnosisCodesetId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Diagnosis Codeset</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Diagnosis Codeset</masterLabel>
+            <refAttrDeveloperName>ModifiedDiagnosisCodesetId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedDiagnosisEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Diagnosis Effective Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Diagnosis Effective Date</masterLabel>
+            <refAttrDeveloperName>ModifiedDiagnosisEffectiveDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedDiagnosisEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Diagnosis End Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Diagnosis End Date</masterLabel>
+            <refAttrDeveloperName>ModifiedDiagnosisEndDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Name</masterLabel>
+            <refAttrDeveloperName>Name</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceSystemIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source System Identifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Source System Identifier</masterLabel>
+            <refAttrDeveloperName>SourceSystemIdentifier</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceSystem__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source System</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Source System</masterLabel>
+            <refAttrDeveloperName>SourceSystem</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716576507639_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestDiagnosis_CareRequestCase_rel</label>
+        <referenceTo>ssot__Case__dlm</referenceTo>
+        <relationshipLabel>CareRequestDiagnosis_CareRequestCase_rel</relationshipLabel>
+        <relationshipName>rel_1716576507639_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716576509540_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestDiagnosis_ModifiedDiagnos_rel</label>
+        <referenceTo>ssot__HealthcareDiagnosis__dlm</referenceTo>
+        <relationshipLabel>CareRequestDiagnosis_ModifiedDiagnos_rel</relationshipLabel>
+        <relationshipName>rel_1716576509540_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716576511228_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestDiagnosis_ModifiedDiagnos_rel</label>
+        <referenceTo>ssot__CodeSetBundle__dlm</referenceTo>
+        <relationshipLabel>CareRequestDiagnosis_ModifiedDiagnos_rel</relationshipLabel>
+        <relationshipName>rel_1716576511228_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716576512720_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestDiagnosis_DischargeDiagno_rel</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>CareRequestDiagnosis_DischargeDiagno_rel</relationshipLabel>
+        <relationshipName>rel_1716576512720_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716576514150_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestDiagnosis_DiagnosisCodeSe_rel</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>CareRequestDiagnosis_DiagnosisCodeSe_rel</relationshipLabel>
+        <relationshipName>rel_1716576514150_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716576515684_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestDiagnosis_DiagnosisCodeId_rel</label>
+        <referenceTo>ssot__HealthcareDiagnosis__dlm</referenceTo>
+        <relationshipLabel>CareRequestDiagnosis_DiagnosisCodeId_rel</relationshipLabel>
+        <relationshipName>rel_1716576515684_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716576517264_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestDiagnosis_DischargeDiagno_rel</label>
+        <referenceTo>ssot__CodeSetBundle__dlm</referenceTo>
+        <relationshipLabel>CareRequestDiagnosis_DischargeDiagno_rel</relationshipLabel>
+        <relationshipName>rel_1716576517264_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716576518796_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestDiagnosis_DischargeDiagno_rel</label>
+        <referenceTo>ssot__HealthcareDiagnosis__dlm</referenceTo>
+        <relationshipLabel>CareRequestDiagnosis_DischargeDiagno_rel</relationshipLabel>
+        <relationshipName>rel_1716576518796_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716576520281_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestDiagnosis_ModifiedDiagnos_rel</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>CareRequestDiagnosis_ModifiedDiagnos_rel</relationshipLabel>
+        <relationshipName>rel_1716576520281_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716576521872_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestDiagnosis_DiagnosisCodeSe_rel</label>
+        <referenceTo>ssot__CodeSetBundle__dlm</referenceTo>
+        <relationshipLabel>CareRequestDiagnosis_DiagnosisCodeSe_rel</relationshipLabel>
+        <relationshipName>rel_1716576521872_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716666650700_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestDiagnosis_CareRequestId_m_rel</label>
+        <referenceTo>ssot__CareRequest__dlm</referenceTo>
+        <relationshipLabel>CareRequestDiagnosis_CareRequestId_m_rel</relationshipLabel>
+        <relationshipName>rel_1716666650700_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716666653756_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestDiagnosis_HealthCondition_rel</label>
+        <referenceTo>ssot__PatientHealthCondition__dlm</referenceTo>
+        <relationshipLabel>CareRequestDiagnosis_HealthCondition_rel</relationshipLabel>
+        <relationshipName>rel_1716666653756_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Care Request Diagnosis</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Care Request</referenceEntityGroup>
+        <referenceEntityName>CareRequestDiagnosis</referenceEntityName>
+        <referenceEntitySubjectArea>Care Request</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

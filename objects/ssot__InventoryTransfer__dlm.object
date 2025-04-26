@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__CreatedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created By</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Created By</masterLabel>
+            <refAttrDeveloperName>CreatedById</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Created Date</masterLabel>
+            <refAttrDeveloperName>CreatedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Description</masterLabel>
+            <refAttrDeveloperName>Description</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DestinationLocationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Destination Location</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Destination Location</masterLabel>
+            <refAttrDeveloperName>DestinationLocationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExpectedPickupDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Expected Pickup DateTime</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Expected Pickup DateTime</masterLabel>
+            <refAttrDeveloperName>ExpectedPickupDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Inventory Transfer Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Inventory Transfer Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InventoryRequestId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Inventory Request</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Inventory Request</masterLabel>
+            <refAttrDeveloperName>InventoryRequestId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InventoryRequestItemId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Inventory Request Item</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Inventory Request Item</masterLabel>
+            <refAttrDeveloperName>InventoryRequestItemId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InventoryTransferNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Inventory Transfer Number</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Inventory Transfer Number</masterLabel>
+            <refAttrDeveloperName>InventoryTransferNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InventoryTransferRecordMode__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Inventory Transfer Record Mode</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Inventory Transfer Record Mode</masterLabel>
+            <refAttrDeveloperName>InventoryTransferRecordMode</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InventoryTransferStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Inventory Transfer Status</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Inventory Transfer Status</masterLabel>
+            <refAttrDeveloperName>InventoryTransferStatus</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsProductSerialized__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Product Serialized</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Product Serialized</masterLabel>
+            <refAttrDeveloperName>IsProductSerialized</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsReceived__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Received</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Received</masterLabel>
+            <refAttrDeveloperName>IsReceived</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified By</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Last Modified By</masterLabel>
+            <refAttrDeveloperName>LastModifiedById</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Last Modified Date</masterLabel>
+            <refAttrDeveloperName>LastModifiedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastReferencedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Referenced DateTime</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Last Referenced DateTime</masterLabel>
+            <refAttrDeveloperName>LastReferencedDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastViewedDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Viewed DateTime</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Last Viewed DateTime</masterLabel>
+            <refAttrDeveloperName>LastViewedDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OwnerId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Owner</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Owner</masterLabel>
+            <refAttrDeveloperName>OwnerId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OwnerObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Owner Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Owner Object</masterLabel>
+            <refAttrDeveloperName>OwnerObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Product</masterLabel>
+            <refAttrDeveloperName>ProductId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__QuantityUOM__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Quantity Unit Of Measure</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Quantity Unit Of Measure</masterLabel>
+            <refAttrDeveloperName>QuantityUOM</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReceivedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Received By Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Received By Id</masterLabel>
+            <refAttrDeveloperName>ReceivedById</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReceivedByObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Received By Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Received By Object</masterLabel>
+            <refAttrDeveloperName>ReceivedByObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReceivedQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Received Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Received Quantity</masterLabel>
+            <refAttrDeveloperName>ReceivedQuantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReturnOrderId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Return Order</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Return Order</masterLabel>
+            <refAttrDeveloperName>ReturnOrderId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReturnOrderProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Return Order Product</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Return Order Product</masterLabel>
+            <refAttrDeveloperName>ReturnOrderProductId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SentQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Sent Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Sent Quantity</masterLabel>
+            <refAttrDeveloperName>SentQuantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShipmentExpectedDlvrDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Shipment Expected Delivery DateTime</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Shipment Expected Delivery DateTime</masterLabel>
+            <refAttrDeveloperName>ShipmentExpectedDlvrDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShipmentStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Shipment Status</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Shipment Status</masterLabel>
+            <refAttrDeveloperName>ShipmentStatus</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShipmentTrackingNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Shipment Tracking Number</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Shipment Tracking Number</masterLabel>
+            <refAttrDeveloperName>ShipmentTrackingNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ShipmentTrackingUrl__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Shipment Tracking Url</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Shipment Tracking Url</masterLabel>
+            <refAttrDeveloperName>ShipmentTrackingUrl</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceLocationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source Location</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Source Location</masterLabel>
+            <refAttrDeveloperName>SourceLocationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceLocationProductInvId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source Location Product Inventory Item</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Source Location Product Inventory Item</masterLabel>
+            <refAttrDeveloperName>SourceLocationProductInvId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__isSent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>is Sent</label>
+        <length>5</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>is Sent</masterLabel>
+            <refAttrDeveloperName>isSent</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1710432557074_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_SourceLocationId_m_rel</label>
+        <referenceTo>ssot__Location__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_SourceLocationId_m_rel</relationshipLabel>
+        <relationshipName>rel_1710432557074_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1710432577205_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_OwnerId_map_User_I_rel</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_OwnerId_map_User_I_rel</relationshipLabel>
+        <relationshipName>rel_1710432577205_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1710432582370_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_SourceLocationProd_rel</label>
+        <referenceTo>ssot__LocationProductInventory__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_SourceLocationProd_rel</relationshipLabel>
+        <relationshipName>rel_1710432582370_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1710432589569_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_ReturnOrderId_map__rel</label>
+        <referenceTo>ssot__ReturnOrder__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_ReturnOrderId_map__rel</relationshipLabel>
+        <relationshipName>rel_1710432589569_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1710432592206_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_InventoryRequestId_rel</label>
+        <referenceTo>ssot__InventoryRequest__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_InventoryRequestId_rel</relationshipLabel>
+        <relationshipName>rel_1710432592206_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1710432626944_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_DestinationLocatio_rel</label>
+        <referenceTo>ssot__Location__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_DestinationLocatio_rel</relationshipLabel>
+        <relationshipName>rel_1710432626944_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1710432627296_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_ReceivedById_map_U_rel</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_ReceivedById_map_U_rel</relationshipLabel>
+        <relationshipName>rel_1710432627296_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1710432629768_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_InventoryRequestIt_rel</label>
+        <referenceTo>ssot__InventoryRequestItem__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_InventoryRequestIt_rel</relationshipLabel>
+        <relationshipName>rel_1710432629768_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1710432632702_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_ReceivedById_map_U_rel</label>
+        <referenceTo>ssot__UserGroup__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_ReceivedById_map_U_rel</relationshipLabel>
+        <relationshipName>rel_1710432632702_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1710432635057_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_OwnerId_map_UserGr_rel</label>
+        <referenceTo>ssot__UserGroup__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_OwnerId_map_UserGr_rel</relationshipLabel>
+        <relationshipName>rel_1710432635057_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726635325_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_CreatedById_map_Us_rel</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_CreatedById_map_Us_rel</relationshipLabel>
+        <relationshipName>rel_1716726635325_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726668028_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_LastModifiedById_m_rel</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_LastModifiedById_m_rel</relationshipLabel>
+        <relationshipName>rel_1716726668028_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716970881845_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_ProductId_map_Prod_rel</label>
+        <referenceTo>ssot__Product__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_ProductId_map_Prod_rel</relationshipLabel>
+        <relationshipName>rel_1716970881845_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716981767037_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>InventoryTransfer_ReturnOrderProduct_rel</label>
+        <referenceTo>ssot__ReturnOrderProduct__dlm</referenceTo>
+        <relationshipLabel>InventoryTransfer_ReturnOrderProduct_rel</relationshipLabel>
+        <relationshipName>rel_1716981767037_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Inventory Transfer</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Inventory Transfer</referenceEntityGroup>
+        <referenceEntityName>InventoryTransfer</referenceEntityName>
+        <referenceEntitySubjectArea>Inventory Transfer</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

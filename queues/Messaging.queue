@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Messaging</name>
+    <queueMembers>
+        <users>
+            <user>anilpilania@tdxbangalore2025.com</user>
+            <user>oneyagarwal1212@tdxbangalore2025.com</user>
+            <user>nagrawal@tdxbangalore2025.com</user>
+            <user>epic.e44875b5bf00@orgfarm.com</user>
+            <user>rsingh@tdxbangalore2025.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Carvilla_Routing_Configuration</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,1388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AmbulanceTransportDistanceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>AmbulanceTransportDistanceNumber</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>AmbulanceTransportDistanceNumber</masterLabel>
+            <refAttrDeveloperName>AmbulanceTransportDistanceNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AmbulanceTransportReason__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ambulance Transport Reason</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Ambulance Transport Reason</masterLabel>
+            <refAttrDeveloperName>AmbulanceTransportReason</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AmbulanceTransportType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ambulance Transport Type</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Ambulance Transport Type</masterLabel>
+            <refAttrDeveloperName>AmbulanceTransportType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ApprovedLengthOfStayDayQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Approved Length Of Stay Days</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Approved Length Of Stay Days</masterLabel>
+            <refAttrDeveloperName>ApprovedLengthOfStayDayQuantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ApprovedLevelOfCare__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Approved Level Of Care</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Approved Level Of Care</masterLabel>
+            <refAttrDeveloperName>ApprovedLevelOfCare</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ApprovedServiceEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Approved Service End Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Approved Service End Date</masterLabel>
+            <refAttrDeveloperName>ApprovedServiceEndDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ApprovedServiceStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Approved Service Start Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Approved Service Start Date</masterLabel>
+            <refAttrDeveloperName>ApprovedServiceStartDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AuthorizationApprovalIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Authorization Approval Identifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Authorization Approval Identifier</masterLabel>
+            <refAttrDeveloperName>AuthorizationApprovalIdentifier</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AuthorizationReferenceIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Authorization Reference Identifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Authorization Reference Identifier</masterLabel>
+            <refAttrDeveloperName>AuthorizationReferenceIdentifier</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CareRequestCaseId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Request Case Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Care Request Case Id</masterLabel>
+            <refAttrDeveloperName>CareRequestCaseId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CareRequestId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Request Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Care Request Id</masterLabel>
+            <refAttrDeveloperName>CareRequestId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CareRequestQuantityTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Request Quantity Type</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Care Request Quantity Type</masterLabel>
+            <refAttrDeveloperName>CareRequestQuantityTypeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClinicalDeterminationNotesText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>ClinicalDeterminationNotes</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>ClinicalDeterminationNotes</masterLabel>
+            <refAttrDeveloperName>ClinicalDeterminationNotesText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClinicalDeterminationReasonId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Clinical Determination Reason</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Clinical Determination Reason</masterLabel>
+            <refAttrDeveloperName>ClinicalDeterminationReasonId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClinicalDetermination__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Clinical Determination</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Clinical Determination</masterLabel>
+            <refAttrDeveloperName>ClinicalDetermination</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClinicalServiceRequestId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Clinical Service Request</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Clinical Service Request</masterLabel>
+            <refAttrDeveloperName>ClinicalServiceRequestId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CurrentLevelOfCare__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Current Level Of Care</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Current Level Of Care</masterLabel>
+            <refAttrDeveloperName>CurrentLevelOfCare</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DecisionDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>DecisionDate</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>DecisionDate</masterLabel>
+            <refAttrDeveloperName>DecisionDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeniedLevelOfCare__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Denied Level Of Care</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Denied Level Of Care</masterLabel>
+            <refAttrDeveloperName>DeniedLevelOfCare</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeniedServiceCodeDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Denied Service Code Description</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Denied Service Code Description</masterLabel>
+            <refAttrDeveloperName>DeniedServiceCodeDescription</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeniedServiceQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Denied Service Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Denied Service Quantity</masterLabel>
+            <refAttrDeveloperName>DeniedServiceQuantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FreeFormProcedureDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <label>FreeFormProcedureDescription</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>FreeFormProcedureDescription</masterLabel>
+            <refAttrDeveloperName>FreeFormProcedureDescription</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Care Request Item Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Care Request Item Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LengthOfStayDays__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Length Of Stay Days</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Length Of Stay Days</masterLabel>
+            <refAttrDeveloperName>LengthOfStayDays</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MedicationApprovedQuantityNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Approved Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Approved Quantity</masterLabel>
+            <refAttrDeveloperName>MedicationApprovedQuantityNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MedicationRequestDeniedQuantityNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Medication Request Denied Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Medication Request Denied Quantity</masterLabel>
+            <refAttrDeveloperName>MedicationRequestDeniedQuantityNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MedicationRequestModifiedQuantityNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Medication Request Modified Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Medication Request Modified Quantity</masterLabel>
+            <refAttrDeveloperName>MedicationRequestModifiedQuantityNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MedicationRequestedQuantityNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Medication Requested Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Medication Requested Quantity</masterLabel>
+            <refAttrDeveloperName>MedicationRequestedQuantityNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedCodeDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Code Description</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Code Description</masterLabel>
+            <refAttrDeveloperName>ModifiedCodeDescription</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedCodeIdentifierText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Code Identifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Code Identifier</masterLabel>
+            <refAttrDeveloperName>ModifiedCodeIdentifierText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedCodeTypeIdentifierText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Code Type Identifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Code Type Identifier</masterLabel>
+            <refAttrDeveloperName>ModifiedCodeTypeIdentifierText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedCodeType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Code Type</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Code Type</masterLabel>
+            <refAttrDeveloperName>ModifiedCodeType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Effective Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Effective Date</masterLabel>
+            <refAttrDeveloperName>ModifiedEffectiveDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified End Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified End Date</masterLabel>
+            <refAttrDeveloperName>ModifiedEndDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedLevelOfCare__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Level Of Care</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Level Of Care</masterLabel>
+            <refAttrDeveloperName>ModifiedLevelOfCare</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedProcedureCodeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Procedure Code</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Procedure Code</masterLabel>
+            <refAttrDeveloperName>ModifiedProcedureCodeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedProcedureCodeSetId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Procedure Code Set</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Procedure Code Set</masterLabel>
+            <refAttrDeveloperName>ModifiedProcedureCodeSetId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedProcedureCodeSetObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Procedure Code Set Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Procedure Code Set Object</masterLabel>
+            <refAttrDeveloperName>ModifiedProcedureCodeSetObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedProcedureCodeType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Procedure Code Type Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Procedure Code Type Id</masterLabel>
+            <refAttrDeveloperName>ModifiedProcedureCodeType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedServiceCodModifier3__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Service Code Modifier 3</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Service Code Modifier 3</masterLabel>
+            <refAttrDeveloperName>ModifiedServiceCodModifier3</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedServiceCodeModifier2Desc__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Service Code Modifier 2 Desc</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Service Code Modifier 2 Desc</masterLabel>
+            <refAttrDeveloperName>ModifiedServiceCodeModifier2Desc</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedServiceCodeModifier2__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Service Code Modifier 2</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Service Code Modifier 2</masterLabel>
+            <refAttrDeveloperName>ModifiedServiceCodeModifier2</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedServiceCodeModifier3Desc__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Service Code Modifier 3 Desc</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Service Code Modifier 3 Desc</masterLabel>
+            <refAttrDeveloperName>ModifiedServiceCodeModifier3Desc</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedServiceCodeModifier4Desc__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Service Code Modifier 4 Desc</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Service Code Modifier 4 Desc</masterLabel>
+            <refAttrDeveloperName>ModifiedServiceCodeModifier4Desc</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedServiceCodeModifier4__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Service Code Modifier 4</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Service Code Modifier 4</masterLabel>
+            <refAttrDeveloperName>ModifiedServiceCodeModifier4</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedServiceCodeModifierDesc__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Service Code Modifier Desc</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Service Code Modifier Desc</masterLabel>
+            <refAttrDeveloperName>ModifiedServiceCodeModifierDesc</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifiedServiceCodeModifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modified Service Code Modifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modified Service Code Modifier</masterLabel>
+            <refAttrDeveloperName>ModifiedServiceCodeModifier</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifierCodeSetId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modifier Code Set</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modifier Code Set</masterLabel>
+            <refAttrDeveloperName>ModifierCodeSetId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ModifierCodeSetObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Modifier Code Set Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Modifier Code Set Object</masterLabel>
+            <refAttrDeveloperName>ModifierCodeSetObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Name</masterLabel>
+            <refAttrDeveloperName>Name</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Priority__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Priority</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Priority</masterLabel>
+            <refAttrDeveloperName>Priority</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProcedureCodeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Procedure Code</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Procedure Code</masterLabel>
+            <refAttrDeveloperName>ProcedureCodeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProcedureCodeSetId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Procedure Code Set</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Procedure Code Set</masterLabel>
+            <refAttrDeveloperName>ProcedureCodeSetId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProcedureCodeSetObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Procedure Code Set Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Procedure Code Set Object</masterLabel>
+            <refAttrDeveloperName>ProcedureCodeSetObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReasonCodeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reason Code</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Reason Code</masterLabel>
+            <refAttrDeveloperName>ReasonCodeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReasonCodeObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reason Code Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Reason Code Object</masterLabel>
+            <refAttrDeveloperName>ReasonCodeObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestStatusReason__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request Status Reason Type Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Request Status Reason Type Id</masterLabel>
+            <refAttrDeveloperName>RequestStatusReason</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Request Status</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Request Status</masterLabel>
+            <refAttrDeveloperName>RequestStatus</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestedLengthOfStayDayQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requested Length Of Stay Days</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Requested Length Of Stay Days</masterLabel>
+            <refAttrDeveloperName>RequestedLengthOfStayDayQuantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestedLevelOfCare__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requested Level Of Care</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Requested Level Of Care</masterLabel>
+            <refAttrDeveloperName>RequestedLevelOfCare</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestedServiceEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requested Service End Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Requested Service End Date</masterLabel>
+            <refAttrDeveloperName>RequestedServiceEndDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RequestedServiceStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Requested Service Start Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Requested Service Start Date</masterLabel>
+            <refAttrDeveloperName>RequestedServiceStartDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceCategoryCodeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Category Code</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Service Category Code</masterLabel>
+            <refAttrDeveloperName>ServiceCategoryCodeText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceCategoryText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Category</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Service Category</masterLabel>
+            <refAttrDeveloperName>ServiceCategoryText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceCodeTypeIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Code Type Identifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Service Code Type Identifier</masterLabel>
+            <refAttrDeveloperName>ServiceCodeTypeIdentifier</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceCodeType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Code Type</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Service Code Type</masterLabel>
+            <refAttrDeveloperName>ServiceCodeType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceEffectiveDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Effective Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Service Effective Date</masterLabel>
+            <refAttrDeveloperName>ServiceEffectiveDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceEndDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service End Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Service End Date</masterLabel>
+            <refAttrDeveloperName>ServiceEndDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServicingFacilityId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Servicing Facility</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Servicing Facility</masterLabel>
+            <refAttrDeveloperName>ServicingFacilityId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServicingFacilityObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Servicing Facility Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Servicing Facility Object</masterLabel>
+            <refAttrDeveloperName>ServicingFacilityObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServicingProviderId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Servicing Provider</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Servicing Provider</masterLabel>
+            <refAttrDeveloperName>ServicingProviderId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceSystemIdentifierText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source System Identifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Source System Identifier</masterLabel>
+            <refAttrDeveloperName>SourceSystemIdentifierText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceSystemModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Source System Modified Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Source System Modified Date</masterLabel>
+            <refAttrDeveloperName>SourceSystemModifiedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SourceSystemText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>SourceSystem</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>SourceSystem</masterLabel>
+            <refAttrDeveloperName>SourceSystemText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TransportLocationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Transport Location Id</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Transport Location Id</masterLabel>
+            <refAttrDeveloperName>TransportLocationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Type</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Type</masterLabel>
+            <refAttrDeveloperName>Type</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726049654_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ModifiedProcedureCod_rel</label>
+        <referenceTo>ssot__HealthcareProcedure__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ModifiedProcedureCod_rel</relationshipLabel>
+        <relationshipName>rel_1716726049654_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726051750_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ProcedureCodeId_map__rel</label>
+        <referenceTo>ssot__HealthcareProcedure__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ProcedureCodeId_map__rel</relationshipLabel>
+        <relationshipName>rel_1716726051750_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726054178_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_CareRequestCaseId_ma_rel</label>
+        <referenceTo>ssot__Case__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_CareRequestCaseId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1716726054178_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726056470_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ModifierCodeSetId_ma_rel</label>
+        <referenceTo>ssot__CodeSetBundle__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ModifierCodeSetId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1716726056470_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726058564_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ModifiedProcedureCod_rel</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ModifiedProcedureCod_rel</relationshipLabel>
+        <relationshipName>rel_1716726058564_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726060590_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ModifierCodeSetId_ma_rel</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ModifierCodeSetId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1716726060590_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726065317_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_CareRequestId_map_Ca_rel</label>
+        <referenceTo>ssot__CareRequest__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_CareRequestId_map_Ca_rel</relationshipLabel>
+        <relationshipName>rel_1716726065317_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726067716_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ClinicalServiceReque_rel</label>
+        <referenceTo>ssot__ClinicalServiceRequest__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ClinicalServiceReque_rel</relationshipLabel>
+        <relationshipName>rel_1716726067716_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726069789_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ClinicalDeterminatio_rel</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ClinicalDeterminatio_rel</relationshipLabel>
+        <relationshipName>rel_1716726069789_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726071936_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ModifiedProcedureCod_rel</label>
+        <referenceTo>ssot__CodeSetBundle__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ModifiedProcedureCod_rel</relationshipLabel>
+        <relationshipName>rel_1716726071936_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726075760_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ReasonCodeId_map_Cod_rel</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ReasonCodeId_map_Cod_rel</relationshipLabel>
+        <relationshipName>rel_1716726075760_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726078555_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ReasonCodeId_map_Car_rel</label>
+        <referenceTo>ssot__CareRequestDiagnosis__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ReasonCodeId_map_Car_rel</relationshipLabel>
+        <relationshipName>rel_1716726078555_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726080904_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ProcedureCodeSetId_m_rel</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ProcedureCodeSetId_m_rel</relationshipLabel>
+        <relationshipName>rel_1716726080904_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726083341_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ProcedureCodeSetId_m_rel</label>
+        <referenceTo>ssot__CodeSetBundle__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ProcedureCodeSetId_m_rel</relationshipLabel>
+        <relationshipName>rel_1716726083341_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720282906336_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_CareRequestQuantityT_rel</label>
+        <referenceTo>ssot__UnitOfMeasure__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_CareRequestQuantityT_rel</relationshipLabel>
+        <relationshipName>rel_1720282906336_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723127826929_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_ServicingFacilityId__rel</label>
+        <referenceTo>ssot__HealthcareFacility__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_ServicingFacilityId__rel</relationshipLabel>
+        <relationshipName>rel_1723127826929_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723127902363_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>CareRequestItem_TransportLocationId__rel</label>
+        <referenceTo>ssot__HealthcareFacility__dlm</referenceTo>
+        <relationshipLabel>CareRequestItem_TransportLocationId__rel</relationshipLabel>
+        <relationshipName>rel_1723127902363_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Care Request Item</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Care Request</referenceEntityGroup>
+        <referenceEntityName>CareRequestItem</referenceEntityName>
+        <referenceEntitySubjectArea>Care Request</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

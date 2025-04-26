@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AddedByType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Added By Type</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Added By Type</masterLabel>
+            <refAttrDeveloperName>AddedByType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClaimId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Claim</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Claim</masterLabel>
+            <refAttrDeveloperName>ClaimId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClaimItem_ClaimId_map_Claim_Id_N_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ClaimItem_ClaimId_map_Claim_Id_N_1</label>
+        <referenceTo>ssot__Claim__dlm</referenceTo>
+        <relationshipLabel>ClaimItem_ClaimId_map_Claim_Id_N_1</relationshipLabel>
+        <relationshipName>ClaimItem_ClaimId_map_Claim_Id_N_1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClaimItem_ItemCodeId_map_CodeSet_Id_N_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ClaimItem_ItemCodeId_map_CodeSet_Id_N_1</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>ClaimItem_ItemCodeId_map_CodeSet_Id_N_1</relationshipLabel>
+        <relationshipName>ClaimItem_ItemCodeId_map_CodeSet_Id_N_1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClaimItem_LocationId_map_Location_Id_N_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ClaimItem_LocationId_map_Location_Id_N_1</label>
+        <referenceTo>ssot__Location__dlm</referenceTo>
+        <relationshipLabel>ClaimItem_LocationId_map_Location_Id_N_1</relationshipLabel>
+        <relationshipName>ClaimItem_LocationId_map_Location_Id_N_1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClaimParticipantId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Claim Participant</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Claim Participant</masterLabel>
+            <refAttrDeveloperName>ClaimParticipantId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CoPayAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Co Pay Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Co Pay Amount</masterLabel>
+            <refAttrDeveloperName>CoPayAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CoverageCategoryCodeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Coverage Category Code</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Coverage Category Code</masterLabel>
+            <refAttrDeveloperName>CoverageCategoryCodeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CoverageCategoryCodeObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Coverage Category Code Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Coverage Category Code Object</masterLabel>
+            <refAttrDeveloperName>CoverageCategoryCodeObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeductibleAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Deductible Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Deductible Amount</masterLabel>
+            <refAttrDeveloperName>DeductibleAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeductibleUnallocatedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Deductible Unallocated Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Deductible Unallocated Amount</masterLabel>
+            <refAttrDeveloperName>DeductibleUnallocatedAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EligibleAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Eligible Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Eligible Amount</masterLabel>
+            <refAttrDeveloperName>EligibleAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EligiblePercent__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Eligible Percent</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Eligible Percent</masterLabel>
+            <refAttrDeveloperName>EligiblePercent</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Claim Item Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Claim Item Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InsurancePolicyAssetId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insurance Policy Asset</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Insurance Policy Asset</masterLabel>
+            <refAttrDeveloperName>InsurancePolicyAssetId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InsurancePolicyCoverageId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Insurance Policy Coverage</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Insurance Policy Coverage</masterLabel>
+            <refAttrDeveloperName>InsurancePolicyCoverageId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ItemCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Item Category</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Item Category</masterLabel>
+            <refAttrDeveloperName>ItemCategory</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ItemCodeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Item Code</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Item Code</masterLabel>
+            <refAttrDeveloperName>ItemCodeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ItemCodeObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Item Code Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Item Code Object</masterLabel>
+            <refAttrDeveloperName>ItemCodeObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LocationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Location</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Location</masterLabel>
+            <refAttrDeveloperName>LocationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Name</masterLabel>
+            <refAttrDeveloperName>Name</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PayableAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Payable Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Payable Amount</masterLabel>
+            <refAttrDeveloperName>PayableAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PriceAdjustmentValueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Price Adjustment Value</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Price Adjustment Value</masterLabel>
+            <refAttrDeveloperName>PriceAdjustmentValueNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Quantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Quantity</masterLabel>
+            <refAttrDeveloperName>Quantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServicedEndDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service End Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Service End Date</masterLabel>
+            <refAttrDeveloperName>ServicedEndDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServicedStartDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Start Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Service Start Date</masterLabel>
+            <refAttrDeveloperName>ServicedStartDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Tax Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Tax Amount</masterLabel>
+            <refAttrDeveloperName>TaxAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Amount</masterLabel>
+            <refAttrDeveloperName>TotalAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UnitPriceAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unit Price Amount</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Unit Price Amount</masterLabel>
+            <refAttrDeveloperName>UnitPriceAmount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723128318040_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ClaimItem_ClaimParticipantId_map_Cla_rel</label>
+        <referenceTo>ssot__ClaimParticipant__dlm</referenceTo>
+        <relationshipLabel>ClaimItem_ClaimParticipantId_map_Cla_rel</relationshipLabel>
+        <relationshipName>rel_1723128318040_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723128324122_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ClaimItem_CoverageCategoryCodeId_map_rel</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>ClaimItem_CoverageCategoryCodeId_map_rel</relationshipLabel>
+        <relationshipName>rel_1723128324122_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723128375470_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ClaimItem_ItemCodeId_map_CodeSetBund_rel</label>
+        <referenceTo>ssot__CodeSetBundle__dlm</referenceTo>
+        <relationshipLabel>ClaimItem_ItemCodeId_map_CodeSetBund_rel</relationshipLabel>
+        <relationshipName>rel_1723128375470_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723128377681_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ClaimItem_CoverageCategoryCodeId_map_rel</label>
+        <referenceTo>ssot__CodeSetBundle__dlm</referenceTo>
+        <relationshipLabel>ClaimItem_CoverageCategoryCodeId_map_rel</relationshipLabel>
+        <relationshipName>rel_1723128377681_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723128379380_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ClaimItem_InsurancePolicyAssetId_map_rel</label>
+        <referenceTo>ssot__InsurancePolicyAsset__dlm</referenceTo>
+        <relationshipLabel>ClaimItem_InsurancePolicyAssetId_map_rel</relationshipLabel>
+        <relationshipName>rel_1723128379380_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723128543200_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ClaimItem_InsurancePolicyCoverageId__rel</label>
+        <referenceTo>ssot__InsurancePolicyCoverage__dlm</referenceTo>
+        <relationshipLabel>ClaimItem_InsurancePolicyCoverageId__rel</relationshipLabel>
+        <relationshipName>rel_1723128543200_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Claim Item</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Financial Account</referenceEntityGroup>
+        <referenceEntityName>ClaimItem</referenceEntityName>
+        <referenceEntitySubjectArea>Financial Account</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

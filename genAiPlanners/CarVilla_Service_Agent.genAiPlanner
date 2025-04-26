@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlanner xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>You are an AI Agent whose job is to help manage customer cases for Carvilla.</description>
+    <genAiFunctions>
+        <genAiFunctionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</genAiFunctionName>
+    </genAiFunctions>
+    <genAiPlugins>
+        <genAiPluginName>SvcCopilotTmpl__CaseManagement</genAiPluginName>
+    </genAiPlugins>
+    <genAiPlugins>
+        <genAiCustomizedPlugin>
+            <description>Handles requests from users who want to transfer or escalate their conversation to a live human agent or other Salesforce agent.</description>
+            <genAiFunctions>
+                <functionName>Update_Messaging_Session_Records</functionName>
+            </genAiFunctions>
+            <genAiPluginInstructions>
+                <description>Always call the action &apos;Update Messaging Session Records&apos; before calling the outbound flow, or any other instructions. Pass the NextAgentName and Current Messaging Session ID as input into  &apos;Update Messaging Session Records&apos; action referenced flow. Use below instructions for NextAgentName Name.</description>
+                <developerName>instruction_alwayscall0</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction_alwayscall0</masterLabel>
+            </genAiPluginInstructions>
+            <genAiPluginInstructions>
+                <description>If a user asks any questions about test ride, then pass the input value as &apos;TestDriveAgent&apos; for the &quot;NextAgentName&quot; variable, and pass that variable value as input into outbound omni flow.</description>
+                <developerName>instruction_ifauserask1</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction_ifauserask1</masterLabel>
+            </genAiPluginInstructions>
+            <genAiPluginInstructions>
+                <description>If a user asks any questions about Sales then pass the input value as &apos;SalesAgent&apos; for the &quot;NextAgentName&quot; variable, and pass that variable value as input into outbound omni flow.</description>
+                <developerName>instruction_ifauserask2</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction_ifauserask2</masterLabel>
+            </genAiPluginInstructions>
+            <genAiPluginInstructions>
+                <description>If a user asks any questions about car or automobile servicing then pass the input value as &apos;ServicesAgent&apos; for the &quot;NextAgentName&quot; variable, and pass that variable value as input into outbound omni flow.</description>
+                <developerName>instruction_ifauserask3</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction_ifauserask3</masterLabel>
+            </genAiPluginInstructions>
+            <genAiPluginInstructions>
+                <description>If a user asks any questions about Policies and products related FAQs, then pass the input value as &apos;SuperAgent&apos; for the &quot;NextAgentName&quot; variable, and pass that variable value as input into outbound omni flow.</description>
+                <developerName>instruction_ifauserask4</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction_ifauserask4</masterLabel>
+            </genAiPluginInstructions>
+            <genAiPluginInstructions>
+                <description>If a user asks to transfer the chat to some human agent, and says that he want to escalate the issue to some manager or other agent, then pass the input value as &apos;HumanAgent&apos; for the &quot;NextAgentName&quot; variable, and pass that variable value as input into outbound omni flow.</description>
+                <developerName>instruction_ifauserask5</developerName>
+                <language>en_US</language>
+                <masterLabel>instruction_ifauserask5</masterLabel>
+            </genAiPluginInstructions>
+            <language>en_US</language>
+            <masterLabel>Escalation to other agent</masterLabel>
+            <name>Escalation_to_other_agent1</name>
+            <pluginType>Topic</pluginType>
+            <scope>Your job is to transfer the conversation to any other agent if a user asks any questions which are not related to services. For example if User is asking for book test drive, or any information related to test drive or Cases or issues inquiry then other agent should handle that query. You shall escalate to other agent by following other instructions of this topic.</scope>
+        </genAiCustomizedPlugin>
+        <genAiPluginName>SvcCopilotTmpl__Escalation</genAiPluginName>
+    </genAiPlugins>
+    <masterLabel>CarVilla Service Agent</masterLabel>
+    <plannerType>AiCopilot__ReAct</plannerType>
+</GenAiPlanner>

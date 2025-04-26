@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Answer Questions with Knowledge for Carvilla</description>
+    <invocationTarget>Answer_Questions_with_Knowledge_Carvilla</invocationTarget>
+    <invocationTargetType>generatePromptResponse</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <masterLabel>Answer Questions with Knowledge Carvilla</masterLabel>
+</GenAiFunction>

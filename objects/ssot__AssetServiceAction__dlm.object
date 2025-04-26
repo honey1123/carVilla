@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__Address__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Address</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Address</masterLabel>
+            <refAttrDeveloperName>Address</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AssetId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Asset</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Asset</masterLabel>
+            <refAttrDeveloperName>AssetId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AssetServiceStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Asset Service Status</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Asset Service Status</masterLabel>
+            <refAttrDeveloperName>AssetServiceStatus</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AssetServiceTypeIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Asset Service Type Identifier</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Asset Service Type Identifier</masterLabel>
+            <refAttrDeveloperName>AssetServiceTypeIdentifier</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AssetServiceType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Asset Service Type</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Asset Service Type</masterLabel>
+            <refAttrDeveloperName>AssetServiceType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedById__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created By</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Created By</masterLabel>
+            <refAttrDeveloperName>CreatedById</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Created Date</masterLabel>
+            <refAttrDeveloperName>CreatedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExpectedLifespanNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Expected Lifespan</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Expected Lifespan</masterLabel>
+            <refAttrDeveloperName>ExpectedLifespanNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExpectedLifespanUOMId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Expected Lifespan Unit of Measure</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Expected Lifespan Unit of Measure</masterLabel>
+            <refAttrDeveloperName>ExpectedLifespanUOMId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExpectedLifetimeUsageNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Expected Lifetime Usage</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Expected Lifetime Usage</masterLabel>
+            <refAttrDeveloperName>ExpectedLifetimeUsageNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExpectedLifetimeUsageUOMId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Expected Lifetime Usage Unit of Measure</label>
+        <length>36</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Expected Lifetime Usage Unit of Measure</masterLabel>
+            <refAttrDeveloperName>ExpectedLifetimeUsageUOMId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Record Id</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>External Record Id</masterLabel>
+            <refAttrDeveloperName>ExternalRecordId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>External Source Id</masterLabel>
+            <refAttrDeveloperName>ExternalSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Asset Service Action Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Asset Service Action Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InstallDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Install Date Time</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Install Date Time</masterLabel>
+            <refAttrDeveloperName>InstallDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsGeneratedFromMaintenancePlan__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <label>Is Generated From Maintenance Plan</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Generated From Maintenance Plan</masterLabel>
+            <refAttrDeveloperName>IsGeneratedFromMaintenancePlan</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ParentAssetId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Parent Asset</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Parent Asset</masterLabel>
+            <refAttrDeveloperName>ParentAssetId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductCodeText__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Code</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Product Code</masterLabel>
+            <refAttrDeveloperName>ProductCodeText</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductFamilyName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Family</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Product Family</masterLabel>
+            <refAttrDeveloperName>ProductFamilyName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Product</masterLabel>
+            <refAttrDeveloperName>ProductId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ProductStockKeepingUnit__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Product Stock Keeping Unit</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Product Stock Keeping Unit</masterLabel>
+            <refAttrDeveloperName>ProductStockKeepingUnit</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RelatedRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Related Record</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Related Record</masterLabel>
+            <refAttrDeveloperName>RelatedRecordId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RelatedRecordObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Related Record Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Related Record Object</masterLabel>
+            <refAttrDeveloperName>RelatedRecordObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceEndDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service End Date Time</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Service End Date Time</masterLabel>
+            <refAttrDeveloperName>ServiceEndDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ServiceStartDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Service Start Date Time</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Service Start Date Time</masterLabel>
+            <refAttrDeveloperName>ServiceStartDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalUsageQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Usage Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Usage Quantity</masterLabel>
+            <refAttrDeveloperName>TotalUsageQuantity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalUsageUnitOfMeasureId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Usage Unit Of Measure</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Usage Unit Of Measure</masterLabel>
+            <refAttrDeveloperName>TotalUsageUnitOfMeasureId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1708941901065_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssetServiceAction_ParentAssetId_map_rel</label>
+        <referenceTo>ssot__Asset__dlm</referenceTo>
+        <relationshipLabel>AssetServiceAction_ParentAssetId_map_rel</relationshipLabel>
+        <relationshipName>rel_1708941901065_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1708941903156_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssetServiceAction_AssetId_map_Asset_rel</label>
+        <referenceTo>ssot__Asset__dlm</referenceTo>
+        <relationshipLabel>AssetServiceAction_AssetId_map_Asset_rel</relationshipLabel>
+        <relationshipName>rel_1708941903156_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1708941904602_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssetServiceAction_CreatedById_map_U_rel</label>
+        <referenceTo>ssot__User__dlm</referenceTo>
+        <relationshipLabel>AssetServiceAction_CreatedById_map_U_rel</relationshipLabel>
+        <relationshipName>rel_1708941904602_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1708941908179_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssetServiceAction_ProductId_map_Pro_rel</label>
+        <referenceTo>ssot__Product__dlm</referenceTo>
+        <relationshipLabel>AssetServiceAction_ProductId_map_Pro_rel</relationshipLabel>
+        <relationshipName>rel_1708941908179_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1708941909133_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssetServiceAction_TotalUsageUnitOfM_rel</label>
+        <referenceTo>ssot__UnitOfMeasure__dlm</referenceTo>
+        <relationshipLabel>AssetServiceAction_TotalUsageUnitOfM_rel</relationshipLabel>
+        <relationshipName>rel_1708941909133_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1708941911011_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssetServiceAction_RelatedRecordId_m_rel</label>
+        <referenceTo>ssot__WorkOrder__dlm</referenceTo>
+        <relationshipLabel>AssetServiceAction_RelatedRecordId_m_rel</relationshipLabel>
+        <relationshipName>rel_1708941911011_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1709016156289_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssetServiceAction_RelatedRecordId_m_rel</label>
+        <referenceTo>ssot__WorkOrderItem__dlm</referenceTo>
+        <relationshipLabel>AssetServiceAction_RelatedRecordId_m_rel</relationshipLabel>
+        <relationshipName>rel_1709016156289_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1709016157823_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssetServiceAction_RelatedRecordId_m_rel</label>
+        <referenceTo>ssot__Case__dlm</referenceTo>
+        <relationshipLabel>AssetServiceAction_RelatedRecordId_m_rel</relationshipLabel>
+        <relationshipName>rel_1709016157823_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1709016248384_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssetServiceAction_Address_map_Addre_rel</label>
+        <referenceTo>ssot__Address__dlm</referenceTo>
+        <relationshipLabel>AssetServiceAction_Address_map_Addre_rel</relationshipLabel>
+        <relationshipName>rel_1709016248384_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720283025040_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssetServiceAction_ExpectedLifespanU_rel</label>
+        <referenceTo>ssot__UnitOfMeasure__dlm</referenceTo>
+        <relationshipLabel>AssetServiceAction_ExpectedLifespanU_rel</relationshipLabel>
+        <relationshipName>rel_1720283025040_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1720283026138_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AssetServiceAction_ExpectedLifetimeU_rel</label>
+        <referenceTo>ssot__UnitOfMeasure__dlm</referenceTo>
+        <relationshipLabel>AssetServiceAction_ExpectedLifetimeU_rel</relationshipLabel>
+        <relationshipName>rel_1720283026138_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Asset Service Action</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Asset</referenceEntityGroup>
+        <referenceEntityName>AssetServiceAction</referenceEntityName>
+        <referenceEntitySubjectArea>Asset</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

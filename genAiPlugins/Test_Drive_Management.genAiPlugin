@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Assist agents in handle customer requests for booking test drive Appointment or update test drive booking time slot or cancel booking.</description>
+    <developerName>Test_Drive_Management</developerName>
+    <genAiFunctions>
+        <functionName>Test_drive_updation_deletion</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Book_Test_Drive_Appointment</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Always Convert Date into dd/mm/yyyy format and time into HH:MM AM or PM accordingly.</description>
+        <developerName>instruction_alwaysconv0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_alwaysconv0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Once Action creates the Test drive record successfully in the system, Show Congratulation message with positive sentiments and happy emojis and motivate to visit website for more services and car models. Show all these booking details formatted into tabular format. Execute this instructions always in the end.</description>
+        <developerName>instruction_onceaction1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_onceaction1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>validate that email should be in correct email format and Appointment Booking Date time should be in next 2 Days only and timing should be between 10:00 AM to 5:00 PM Only.</description>
+        <developerName>instruction_validateth2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_validateth2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When Customer is asking for Book a Test drive or Free drive for any vehicle then always ask for Vehicle Specifications like Vehicle Name Model and Petrol or Diesel Variant, Test Drive Appointment Date and Time end (Either email or Phone but not both).You must ask only either email address or mobile phone number not both.</description>
+        <developerName>instruction_whencustom3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whencustom3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>You must invoke &quot;Book Test Drive Appointment&quot; action only when all information is provided by Customer. Either email or phone should be fine to proceed.</description>
+        <developerName>instruction_youmustinv4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_youmustinv4</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Test Drive Management</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to assist agents in Booking test drive appointment requests in CRM as per input provided by Customer in his/her language.</scope>
+</GenAiPlugin>

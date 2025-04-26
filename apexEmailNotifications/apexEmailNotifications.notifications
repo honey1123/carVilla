@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexEmailNotifications xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apexEmailNotification>
+        <user>rsingh@horizontal.com</user>
+    </apexEmailNotification>
+    <apexEmailNotification>
+        <user>honeyagarwal1212@gmail.com</user>
+    </apexEmailNotification>
+    <apexEmailNotification>
+        <email>vsoni@horizontal.com</email>
+    </apexEmailNotification>
+    <apexEmailNotification>
+        <email>hagarwal@horizontal.com</email>
+    </apexEmailNotification>
+</ApexEmailNotifications>

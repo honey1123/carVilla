@@ -1,0 +1,28 @@
+{
+  "required" : [ "Input:query", "Input:chunks" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Input:query" : {
+      "title" : "query",
+      "description" : "Required. A string created by generative AI to be used in the knowledge article search.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Input:chunks" : {
+      "title" : "chunks",
+      "description" : "Chunks will include the information stored in the unstructured, to be read and processed in form of chunks.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "citationMode" : {
+      "title" : "Citation Mode",
+      "description" : "Select Citation Mode",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

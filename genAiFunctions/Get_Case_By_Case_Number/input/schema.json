@@ -1,0 +1,24 @@
+{
+  "required" : [ "caseNumber", "contactRecord" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "caseNumber" : {
+      "title" : "caseNumber",
+      "description" : "This is the Case Number.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "contactRecord" : {
+      "title" : "contactRecord",
+      "description" : "This is the contact Record.",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "Contact"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

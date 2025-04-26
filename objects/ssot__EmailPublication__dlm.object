@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__BodyTxt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Body Text</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Body Text</masterLabel>
+            <refAttrDeveloperName>BodyTxt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClickThroughPct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Click Through Percent</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Click Through Percent</masterLabel>
+            <refAttrDeveloperName>ClickThroughPct</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClickToOpenPct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Click To Open Percent</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Click To Open Percent</masterLabel>
+            <refAttrDeveloperName>ClickToOpenPct</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__CreatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Created Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Created Date</masterLabel>
+            <refAttrDeveloperName>CreatedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeliveryPct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Delivery Percent</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Delivery Percent</masterLabel>
+            <refAttrDeveloperName>DeliveryPct</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Description</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Description</masterLabel>
+            <refAttrDeveloperName>Description</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DurationSecondsQty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Duration Seconds Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Duration Seconds Quantity</masterLabel>
+            <refAttrDeveloperName>DurationSecondsQty</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EnagementAssetContentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Asset Content</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Engagement Asset Content</masterLabel>
+            <refAttrDeveloperName>EnagementAssetContentId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EnagementAssetId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Asset</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Engagement Asset</masterLabel>
+            <refAttrDeveloperName>EnagementAssetId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EnagementPublicationTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Publication Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Engagement Publication Type</masterLabel>
+            <refAttrDeveloperName>EnagementPublicationTypeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementChannelTypeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Channel Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Engagement Channel Type</masterLabel>
+            <refAttrDeveloperName>EngagementChannelTypeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementPublicationNbr__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Publication Number</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Engagement Publication Number</masterLabel>
+            <refAttrDeveloperName>EngagementPublicationNbr</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementPublicationStatusId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Publication Status</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Engagement Publication Status</masterLabel>
+            <refAttrDeveloperName>EngagementPublicationStatusId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EngagementTopicGroupId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Engagement Topic Group</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Engagement Topic Group</masterLabel>
+            <refAttrDeveloperName>EngagementTopicGroupId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ErrorMessageTxt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Error Message Text</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Error Message Text</masterLabel>
+            <refAttrDeveloperName>ErrorMessageTxt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalRecordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Record Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>External Record Id</masterLabel>
+            <refAttrDeveloperName>ExternalRecordId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ExternalSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>External Source Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>External Source Id</masterLabel>
+            <refAttrDeveloperName>ExternalSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FailedRecordCt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Failed Record Count</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Failed Record Count</masterLabel>
+            <refAttrDeveloperName>FailedRecordCt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FromAddr__c</fullName>
+        <deprecated>false</deprecated>
+        <label>From Address</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>From Address</masterLabel>
+            <refAttrDeveloperName>FromAddr</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__FromName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>From Name</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>From Name</masterLabel>
+            <refAttrDeveloperName>FromName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HTMLBodyTxt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>HTML Body</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>HTML Body</masterLabel>
+            <refAttrDeveloperName>HTMLBodyTxt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__HasAttachment__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Has Attachment</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Has Attachment</masterLabel>
+            <refAttrDeveloperName>HasAttachment</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Email Publication Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Email Publication Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IsTracked__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Is Tracked</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Is Tracked</masterLabel>
+            <refAttrDeveloperName>IsTracked</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__LastModifiedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Last Modified Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Last Modified Date</masterLabel>
+            <refAttrDeveloperName>LastModifiedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Name</masterLabel>
+            <refAttrDeveloperName>Name</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OpenPct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Open Percent</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Open Percent</masterLabel>
+            <refAttrDeveloperName>OpenPct</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__OptOutPct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Opt Out Percent</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Opt Out Percent</masterLabel>
+            <refAttrDeveloperName>OptOutPct</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ParentEngagementPublicationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Parent Engagement Publication</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Parent Engagement Publication</masterLabel>
+            <refAttrDeveloperName>ParentEngagementPublicationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PublicationAttemptsNbr__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Publication Attempts Number</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Publication Attempts Number</masterLabel>
+            <refAttrDeveloperName>PublicationAttemptsNbr</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__PublicationStatusDt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Publication Status Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Publication Status Date</masterLabel>
+            <refAttrDeveloperName>PublicationStatusDt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ReplyToAddr__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Reply To Address</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Reply To Address</masterLabel>
+            <refAttrDeveloperName>ReplyToAddr</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ScheduledDt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Scheduled Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Scheduled Date</masterLabel>
+            <refAttrDeveloperName>ScheduledDt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SendClassificationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Send Classification</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Send Classification</masterLabel>
+            <refAttrDeveloperName>SendClassificationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SendMechanismName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Send Mechanism Name</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Send Mechanism Name</masterLabel>
+            <refAttrDeveloperName>SendMechanismName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SuccessfulRecordCt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Successful Record Count</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Successful Record Count</masterLabel>
+            <refAttrDeveloperName>SuccessfulRecordCt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalDeliveredQty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Delivered Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Delivered Quantity</masterLabel>
+            <refAttrDeveloperName>TotalDeliveredQty</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalHardBounceQty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Hard Bounce Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Hard Bounce Quantity</masterLabel>
+            <refAttrDeveloperName>TotalHardBounceQty</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalOpensQty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Opens Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Opens Quantity</masterLabel>
+            <refAttrDeveloperName>TotalOpensQty</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalPublicationItemsCt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Publication Items Count</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Publication Items Count</masterLabel>
+            <refAttrDeveloperName>TotalPublicationItemsCt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalSentQty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Sent Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Sent Quantity</masterLabel>
+            <refAttrDeveloperName>TotalSentQty</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalSoftBounceQty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Soft Bounce Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Soft Bounce Quantity</masterLabel>
+            <refAttrDeveloperName>TotalSoftBounceQty</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalSpamComplaintsQty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Spam Complaints Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Spam Complaints Quantity</masterLabel>
+            <refAttrDeveloperName>TotalSpamComplaintsQty</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__TotalTrackedLinkClicksQty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Total Tracked Link Clicks Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Total Tracked Link Clicks Quantity</masterLabel>
+            <refAttrDeveloperName>TotalTrackedLinkClicksQty</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UniqueClickThroughPct__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unique Click Through Percent</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Unique Click Through Percent</masterLabel>
+            <refAttrDeveloperName>UniqueClickThroughPct</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UniqueOpensQty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unique Opens Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Unique Opens Quantity</masterLabel>
+            <refAttrDeveloperName>UniqueOpensQty</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UniqueOptOutsQty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unique Opt Outs Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Unique Opt Outs Quantity</masterLabel>
+            <refAttrDeveloperName>UniqueOptOutsQty</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__UniqueTrackedLinkClicksQty__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Unique Tracked Link Clicks Quantity</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Unique Tracked Link Clicks Quantity</masterLabel>
+            <refAttrDeveloperName>UniqueTrackedLinkClicksQty</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761167684_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>DeviceApplicationTemplate_Id_map_Ema_rel</label>
+        <referenceTo>ssot__DeviceApplicationTemplate__dlm</referenceTo>
+        <relationshipLabel>DeviceApplicationTemplate_Id_map_Ema_rel</relationshipLabel>
+        <relationshipName>rel_1697761167684_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761170323_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailPublication_EnagementAssetId_ma_rel</label>
+        <referenceTo>ssot__DeviceApplicationTemplate__dlm</referenceTo>
+        <relationshipLabel>EmailPublication_EnagementAssetId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1697761170323_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761170391_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailPublication_EnagementAssetId_ma_rel</label>
+        <referenceTo>ssot__EmailTemplate__dlm</referenceTo>
+        <relationshipLabel>EmailPublication_EnagementAssetId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1697761170391_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761170456_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailPublication_EnagementAssetId_ma_rel</label>
+        <referenceTo>ssot__SMSTemplate__dlm</referenceTo>
+        <relationshipLabel>EmailPublication_EnagementAssetId_ma_rel</relationshipLabel>
+        <relationshipName>rel_1697761170456_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761170526_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailPublication_EngagementChannelTy_rel</label>
+        <referenceTo>ssot__EngagementChannelType__dlm</referenceTo>
+        <relationshipLabel>EmailPublication_EngagementChannelTy_rel</relationshipLabel>
+        <relationshipName>rel_1697761170526_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761170735_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailPublication_Id_map_EmailPublica_rel</label>
+        <referenceTo>ssot__EmailPublication__dlm</referenceTo>
+        <relationshipLabel>EmailPublication_Id_map_EmailPublica_rel</relationshipLabel>
+        <relationshipName>rel_1697761170735_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761171283_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailPublication_ParentEngagementPub_rel</label>
+        <referenceTo>ssot__EmailPublication__dlm</referenceTo>
+        <relationshipLabel>EmailPublication_ParentEngagementPub_rel</relationshipLabel>
+        <relationshipName>rel_1697761171283_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761171352_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailPublication_ParentEngagementPub_rel</label>
+        <referenceTo>ssot__SMSPublication__dlm</referenceTo>
+        <relationshipLabel>EmailPublication_ParentEngagementPub_rel</relationshipLabel>
+        <relationshipName>rel_1697761171352_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761171657_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EmailTemplate_Id_map_EmailPublicatio_rel</label>
+        <referenceTo>ssot__EmailTemplate__dlm</referenceTo>
+        <relationshipLabel>EmailTemplate_Id_map_EmailPublicatio_rel</relationshipLabel>
+        <relationshipName>rel_1697761171657_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761173020_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>EngagementChannelType_Id_map_EmailPu_rel</label>
+        <referenceTo>ssot__EngagementChannelType__dlm</referenceTo>
+        <relationshipLabel>EngagementChannelType_Id_map_EmailPu_rel</relationshipLabel>
+        <relationshipName>rel_1697761173020_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761197606_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>SMSPublication_Id_map_EmailPublicati_rel</label>
+        <referenceTo>ssot__SMSPublication__dlm</referenceTo>
+        <relationshipLabel>SMSPublication_Id_map_EmailPublicati_rel</relationshipLabel>
+        <relationshipName>rel_1697761197606_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1697761198588_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>SMSTemplate_Id_map_EmailPublication__rel</label>
+        <referenceTo>ssot__SMSTemplate__dlm</referenceTo>
+        <relationshipLabel>SMSTemplate_Id_map_EmailPublication__rel</relationshipLabel>
+        <relationshipName>rel_1697761198588_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <description>A process that sends email messages to a set of recipients.</description>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Email Publication</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Engagement</referenceEntityGroup>
+        <referenceEntityName>EmailPublication</referenceEntityName>
+        <referenceEntitySubjectArea>Engagement</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

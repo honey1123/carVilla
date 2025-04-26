@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MktDataConnection xmlns="http://soap.sforce.com/2006/04/metadata">
+    <connectionMethod>Ingress</connectionMethod>
+    <connectionStatus>ACTIVE</connectionStatus>
+    <connectorName>UploadedFiles</connectorName>
+    <externalRecordIdentifier>5ba655ae-15fc-4816-9761-5f08bae0977c</externalRecordIdentifier>
+    <masterLabel>UploadedFiles</masterLabel>
+</MktDataConnection>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Multiagent Transfer Logs</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Multiagent Transfer Logs</value>
+    </caseValues>
+    <fields>
+        <help><!-- Name of agent, currently talking to the customer. --></help>
+        <label><!-- Current Agent Name --></label>
+        <name>Current_Agent_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the Next Requested by the system --></help>
+        <label><!-- Next Requested Agent Name --></label>
+        <name>Next_Requested_Agent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Transfer Timestamp --></help>
+        <label><!-- Transfer Timestamp --></label>
+        <name>Transfer_Timestamp__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

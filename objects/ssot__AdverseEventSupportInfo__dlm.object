@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AdverseEventId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Adverse Event</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Adverse Event</masterLabel>
+            <refAttrDeveloperName>AdverseEventId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SupportingInformationCodeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supporting Information Code</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Supporting Information Code</masterLabel>
+            <refAttrDeveloperName>SupportingInformationCodeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SupportingInformationCodeObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supporting Information Code Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Supporting Information Code Object</masterLabel>
+            <refAttrDeveloperName>SupportingInformationCodeObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SupportingInformationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supporting Information</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Supporting Information</masterLabel>
+            <refAttrDeveloperName>SupportingInformationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__SupportingInformationObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Supporting Information Object</label>
+        <length>255</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Supporting Information Object</masterLabel>
+            <refAttrDeveloperName>SupportingInformationObject</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716721826484_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AdverseEventSupportInfo_SupportingIn_rel</label>
+        <referenceTo>ssot__CodeSet__dlm</referenceTo>
+        <relationshipLabel>AdverseEventSupportInfo_SupportingIn_rel</relationshipLabel>
+        <relationshipName>rel_1716721826484_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716721828358_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AdverseEventSupportInfo_SupportingIn_rel</label>
+        <referenceTo>ssot__AllergyIntolerance__dlm</referenceTo>
+        <relationshipLabel>AdverseEventSupportInfo_SupportingIn_rel</relationshipLabel>
+        <relationshipName>rel_1716721828358_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716721834061_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AdverseEventSupportInfo_SupportingIn_rel</label>
+        <referenceTo>ssot__CodeSetBundle__dlm</referenceTo>
+        <relationshipLabel>AdverseEventSupportInfo_SupportingIn_rel</relationshipLabel>
+        <relationshipName>rel_1716721834061_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726404931_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AdverseEventSupportInfo_SupportingIn_rel</label>
+        <referenceTo>ssot__PatientImmunization__dlm</referenceTo>
+        <relationshipLabel>AdverseEventSupportInfo_SupportingIn_rel</relationshipLabel>
+        <relationshipName>rel_1716726404931_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726423937_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AdverseEventSupportInfo_SupportingIn_rel</label>
+        <referenceTo>ssot__PatientMedicationStatement__dlm</referenceTo>
+        <relationshipLabel>AdverseEventSupportInfo_SupportingIn_rel</relationshipLabel>
+        <relationshipName>rel_1716726423937_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726426879_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AdverseEventSupportInfo_SupportingIn_rel</label>
+        <referenceTo>ssot__DiagnosticSummary__dlm</referenceTo>
+        <relationshipLabel>AdverseEventSupportInfo_SupportingIn_rel</relationshipLabel>
+        <relationshipName>rel_1716726426879_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726427845_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AdverseEventSupportInfo_SupportingIn_rel</label>
+        <referenceTo>ssot__Medication__dlm</referenceTo>
+        <relationshipLabel>AdverseEventSupportInfo_SupportingIn_rel</relationshipLabel>
+        <relationshipName>rel_1716726427845_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1716726428056_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>AdverseEventSupportInfo_SupportingIn_rel</label>
+        <referenceTo>ssot__CareObservation__dlm</referenceTo>
+        <relationshipLabel>AdverseEventSupportInfo_SupportingIn_rel</relationshipLabel>
+        <relationshipName>rel_1716726428056_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Adverse Event Supporting Information</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Research Study</referenceEntityGroup>
+        <referenceEntityName>AdverseEventSupportInfo</referenceEntityName>
+        <referenceEntitySubjectArea>Research Study</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

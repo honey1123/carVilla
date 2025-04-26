@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AdExchangeId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ad Exchange Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Ad Exchange Id</masterLabel>
+            <refAttrDeveloperName>AdExchangeId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ad Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Ad Id</masterLabel>
+            <refAttrDeveloperName>AdId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdKeywordId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ad Keyword Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Ad Keyword Id</masterLabel>
+            <refAttrDeveloperName>AdKeywordId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__AdStrategyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Ad Strategy Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Ad Strategy Id</masterLabel>
+            <refAttrDeveloperName>AdStrategyId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source</masterLabel>
+            <refAttrDeveloperName>DataSourceId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Data Source Object</masterLabel>
+            <refAttrDeveloperName>DataSourceObjectId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeliveryVerifnEngmtSummaryDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Delivery Verifn Engmt Summary Date Time</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Delivery Verifn Engmt Summary Date Time</masterLabel>
+            <refAttrDeveloperName>DeliveryVerifnEngmtSummaryDateTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DeviceTypeConfigurationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Device Type Configuration Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Device Type Configuration Id</masterLabel>
+            <refAttrDeveloperName>DeviceTypeConfigurationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__EligibleImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Eligible Impressions</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Eligible Impressions</masterLabel>
+            <refAttrDeveloperName>EligibleImpressionsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Delivery Verification Engmt Summary Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Delivery Verification Engmt Summary Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>Id</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1CustmMetricMeasurablImprCnt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std1 Custm Mtrc Measurabl Impr</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std1 Custm Mtrc Measurabl Impr</masterLabel>
+            <refAttrDeveloperName>IndustryStd1CustmMetricMeasurablImprCnt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1CustmMetricViewablImprCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std1 Custm Mtrc Viewabl Impr</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std1 Custm Mtrc Viewabl Impr</masterLabel>
+            <refAttrDeveloperName>IndustryStd1CustmMetricViewablImprCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1EligibleImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std1 Eligible Impressions</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std1 Eligible Impressions</masterLabel>
+            <refAttrDeveloperName>IndustryStd1EligibleImpressionsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1ImprAudiblVisiblAtComplnCnt__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std1 Impr Audibl Visibl At Cpltn</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std1 Impr Audibl Visibl At Cpltn</masterLabel>
+            <refAttrDeveloperName>IndustryStd1ImprAudiblVisiblAtComplnCnt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1ImprDistriNotMeasurableCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std1 Impr Dstr Not Measurable</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std1 Impr Dstr Not Measurable</masterLabel>
+            <refAttrDeveloperName>IndustryStd1ImprDistriNotMeasurableCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1ImprDistriNotViewableCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std1 Impr Distribution Not Viewabl</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std1 Impr Distribution Not Viewabl</masterLabel>
+            <refAttrDeveloperName>IndustryStd1ImprDistriNotViewableCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1ImprDistributionViewablCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std1 Impr Distribution Viewable</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std1 Impr Distribution Viewable</masterLabel>
+            <refAttrDeveloperName>IndustryStd1ImprDistributionViewablCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1ImprVisiblFor10SecondsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std1 Impr Visible For 10 Seconds</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std1 Impr Visible For 10 Seconds</masterLabel>
+            <refAttrDeveloperName>IndustryStd1ImprVisiblFor10SecondsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1MeasurableImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std1 Measurable Impressions</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std1 Measurable Impressions</masterLabel>
+            <refAttrDeveloperName>IndustryStd1MeasurableImpressionsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1NotMeasurablImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std1 Not Measurable Impressions</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std1 Not Measurable Impressions</masterLabel>
+            <refAttrDeveloperName>IndustryStd1NotMeasurablImpressionsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1NotViewableImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std1 Not Viewable Impressions</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std1 Not Viewable Impressions</masterLabel>
+            <refAttrDeveloperName>IndustryStd1NotViewableImpressionsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1UOMId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Industry Standard 1 Unit Of Measure</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Industry Standard 1 Unit Of Measure</masterLabel>
+            <refAttrDeveloperName>IndustryStd1UOMId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd1ViewableImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std1 Viewable Impressions</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std1 Viewable Impressions</masterLabel>
+            <refAttrDeveloperName>IndustryStd1ViewableImpressionsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd2MeasurableImprCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std2 Measurable Impressions</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std2 Measurable Impressions</masterLabel>
+            <refAttrDeveloperName>IndustryStd2MeasurableImprCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd2TrvMeasurableImprCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std2 Trv Measurable Impr</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std2 Trv Measurable Impr</masterLabel>
+            <refAttrDeveloperName>IndustryStd2TrvMeasurableImprCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd2TrvViewableImprCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std2 Trv Viewable Impr</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std2 Trv Viewable Impr</masterLabel>
+            <refAttrDeveloperName>IndustryStd2TrvViewableImprCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd2UOMId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Industry Standard 2 Unit Of Measure</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Industry Standard 2 Unit Of Measure</masterLabel>
+            <refAttrDeveloperName>IndustryStd2UOMId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__IndustryStd2ViewableImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Idst Std2 Viewable Impressions</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Idst Std2 Viewable Impressions</masterLabel>
+            <refAttrDeveloperName>IndustryStd2ViewableImpressionsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Internal Organization</masterLabel>
+            <refAttrDeveloperName>InternalOrganizationId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MarketingChannelTargetedSegmentId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Marketing Channel Targeted Segment Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Marketing Channel Targeted Segment Id</masterLabel>
+            <refAttrDeveloperName>MarketingChannelTargetedSegmentId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__MediaBuyId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Media Buy Id</label>
+        <length>15</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Media Buy Id</masterLabel>
+            <refAttrDeveloperName>MediaBuyId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerifMeasurablImprFrVideoPlyrLocnCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verificatn Meas Impr For Video Plyr Locn</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verificatn Meas Impr For Video Plyr Locn</masterLabel>
+            <refAttrDeveloperName>VerifMeasurablImprFrVideoPlyrLocnCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerifMeasurablImprFrVideoPlyrSizeCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verificatn Meas Impr For Video Plyr Size</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verificatn Meas Impr For Video Plyr Size</masterLabel>
+            <refAttrDeveloperName>VerifMeasurablImprFrVideoPlyrSizeCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerifMeasurableImpressnsForAudioCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verification Measurable Impr For Audio</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verification Measurable Impr For Audio</masterLabel>
+            <refAttrDeveloperName>VerifMeasurableImpressnsForAudioCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerificationBlockedImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verification Blocked Impressions</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verification Blocked Impressions</masterLabel>
+            <refAttrDeveloperName>VerificationBlockedImpressionsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerificationClassifiedImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verification Classified Impressions</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verification Classified Impressions</masterLabel>
+            <refAttrDeveloperName>VerificationClassifiedImpressionsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerificationPublisherProblemsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verification Publisher Problems</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verification Publisher Problems</masterLabel>
+            <refAttrDeveloperName>VerificationPublisherProblemsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerificationReportingProblemsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verification Reporting Problems</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verification Reporting Problems</masterLabel>
+            <refAttrDeveloperName>VerificationReportingProblemsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerificationServingProblemsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verification Serving Problems</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verification Serving Problems</masterLabel>
+            <refAttrDeveloperName>VerificationServingProblemsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerificationVerifiableImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verification Verifiable Impressions</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verification Verifiable Impressions</masterLabel>
+            <refAttrDeveloperName>VerificationVerifiableImpressionsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerificationVideoMutedAtStartCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verification Video Muted At Start</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verification Video Muted At Start</masterLabel>
+            <refAttrDeveloperName>VerificationVideoMutedAtStartCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerificationVideoPlayerHDSizeImprCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verification Video Player HD Size Impr</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verification Video Player HD Size Impr</masterLabel>
+            <refAttrDeveloperName>VerificationVideoPlayerHDSizeImprCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerificationVideoPlayrLargeSizeImprCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verification Video Playr Large Size Impr</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verification Video Playr Large Size Impr</masterLabel>
+            <refAttrDeveloperName>VerificationVideoPlayrLargeSizeImprCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerificationVideoPlayrSmallSizeImprCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verification Video Playr Small Size Impr</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verification Video Playr Small Size Impr</masterLabel>
+            <refAttrDeveloperName>VerificationVideoPlayrSmallSizeImprCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__VerificationVideoProminenceScoreNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Verification Video Prominence Score</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Verification Video Prominence Score</masterLabel>
+            <refAttrDeveloperName>VerificationVideoProminenceScoreNumber</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ViewableImpressionsCount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Viewable Impressions</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <masterLabel>Viewable Impressions</masterLabel>
+            <refAttrDeveloperName>ViewableImpressionsCount</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Standard</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>false</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <masterLabel>Delivery Verification Engagement Summary</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Unassigned</objectCategory>
+        <referenceEntityGroup>Engagement</referenceEntityGroup>
+        <referenceEntityName>DeliveryVerificationEngmtSummary</referenceEntityName>
+        <referenceEntitySubjectArea>Engagement</referenceEntitySubjectArea>
+    </mktDataModelAttributes>
+</CustomObject>

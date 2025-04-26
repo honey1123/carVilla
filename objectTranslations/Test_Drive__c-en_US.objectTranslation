@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Test Drive</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Test Drives</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assigned Guest For Ride --></label>
+        <name>Assigned_Guest_For_Ride__c</name>
+        <relationshipLabel><!-- Guest Rides (Assigned Guest For Ride) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned Ride Driver --></label>
+        <name>Assigned_Ride_Driver__c</name>
+        <relationshipLabel><!-- Test Drives --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer&apos;s request --></label>
+        <name>Customer_s_request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time slot --></label>
+        <name>Time_slot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vehicle Assigned --></label>
+        <name>Vehicle_Assigned__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

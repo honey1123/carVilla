@@ -1,0 +1,49 @@
+{
+  "required" : [ "BookingAppointmentDateTime", "vehicleSpecification" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "BookingAppointmentDateTime" : {
+      "title" : "BookingAppointmentDateTime",
+      "description" : "This is the Test Drive Booking Appoint Date Time Customer has suggested.",
+      "lightning:type" : "lightning__dateTimeStringType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "CustomerPhone" : {
+      "title" : "CustomerPhone",
+      "description" : "This is the 10 Digits Mobile number provided by Customer or end user.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "customerEmail" : {
+      "title" : "customerEmail",
+      "description" : "This is the email address provided by Customer or end user.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "customerMessage" : {
+      "title" : "customerMessage",
+      "description" : "This is special request asked by customer for test drive booking.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "prefferedTimeSlot" : {
+      "title" : "prefferedTimeSlot",
+      "description" : "This is the booking date time suggested by customer or end user.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "vehicleSpecification" : {
+      "title" : "vehicleSpecification",
+      "description" : "Vehicle Specification provide by Customer. For example Vehicle Model Name, Petrol or Diesel variant and Model Year etc.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

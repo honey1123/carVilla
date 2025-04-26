@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>CreatedById__c</fullName>
+        <label>Created By</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Created By</labelOverride>
+            <masterLabel>Created By</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>CreatedDate__c</fullName>
+        <label>Created Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Created Date</labelOverride>
+            <masterLabel>Created Date</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>DataSourceObject__c</fullName>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Source Object</labelOverride>
+            <masterLabel>Data Source Object</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>DataSource__c</fullName>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Source</labelOverride>
+            <masterLabel>Data Source</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <label>Description</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Description</labelOverride>
+            <masterLabel>Description</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>DeveloperName__c</fullName>
+        <label>Developer Name</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Developer Name</labelOverride>
+            <masterLabel>Developer Name</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Id__c</fullName>
+        <label>Data Category Group ID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Category Group ID</labelOverride>
+            <masterLabel>Data Category Group ID</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>InternalOrganization__c</fullName>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Internal Organization</labelOverride>
+            <masterLabel>Internal Organization</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_Id__c</fullName>
+        <label>Key Qualifier Data Category Group ID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Key Qualifier Data Category Group ID</labelOverride>
+            <masterLabel>Key Qualifier Data Category Group ID</masterLabel>
+            <refAttrDeveloperName>KQ_Id</refAttrDeveloperName>
+            <usageTag>KeyQualifier</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>LastModifiedById__c</fullName>
+        <label>Last Modified By</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Last Modified By</labelOverride>
+            <masterLabel>Last Modified By</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>LastModifiedDate__c</fullName>
+        <label>Last Modified Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Last Modified Date</labelOverride>
+            <masterLabel>Last Modified Date</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>MasterLabel__c</fullName>
+        <label>Label</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Label</labelOverride>
+            <masterLabel>Label</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <label>Status</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Status</labelOverride>
+            <masterLabel>Status</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Custom</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <description>DataCategoryGroupCustom__dlm</description>
+        <isEnabled>true</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <labelOverride>DataCategoryGroupCustom__dlm</labelOverride>
+        <masterLabel>DataCategoryGroupCustom__dlm</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Related</objectCategory>
+    </mktDataModelAttributes>
+</CustomObject>

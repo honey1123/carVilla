@@ -1,0 +1,14 @@
+{
+  "required" : [ "inputFromAgent" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "inputFromAgent" : {
+      "title" : "inputFromAgent",
+      "description" : "Vehicle details and time slot for test drive, take date time input in a scheduler input format.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
