@@ -1,0 +1,19 @@
+<apex:page controller="SlackController">
+    <script>
+        function sendMessage() {
+            var message = document.getElementById("messageInput").value;
+            Visualforce.remoting.Manager.invokeAction(
+                "{!$RemoteAction.SlackController.sendMessage}", 
+                message, 
+                function(result, event) {
+                    if (event.status) alert("Message sent!");
+                    else alert("Error: " + event.message);
+                }
+            );
+        }
+    </script>
+
+    <h2>Send Message to Slack</h2>
+    <input type="text" id="messageInput" placeholder="Enter your message" />
+    <button onclick="sendMessage()">Send</button>
+</apex:page>

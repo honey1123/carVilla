@@ -1,0 +1,34 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "customerEmail" : {
+      "title" : "customerEmail",
+      "description" : "Agent should ask customer about their email and it is mandatory to proceed further.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "customerMessage" : {
+      "title" : "customerMessage",
+      "description" : "Customer message about vehicle specifications and details",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "prefferedTimeSlot" : {
+      "title" : "prefferedTimeSlot",
+      "description" : "Preferred time slot by customer for test drive",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "vehicleAssigned" : {
+      "title" : "vehicleAssigned",
+      "description" : "Information about the vehicle requested by the customer.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

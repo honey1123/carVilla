@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ClientSession__c</fullName>
+        <label>Client Session</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Client Session</labelOverride>
+            <masterLabel>Client Session</masterLabel>
+            <refAttrDeveloperName>ClientSession</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Cloud__c</fullName>
+        <label>Cloud</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Cloud</labelOverride>
+            <masterLabel>Cloud</masterLabel>
+            <refAttrDeveloperName>Cloud</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>CreatedById__c</fullName>
+        <label>Created By Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Created By Id</labelOverride>
+            <masterLabel>Created By Id</masterLabel>
+            <refAttrDeveloperName>CreatedById</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>CreatedDate__c</fullName>
+        <label>Created Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Created Date</labelOverride>
+            <masterLabel>Created Date</masterLabel>
+            <refAttrDeveloperName>CreatedDate</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CustomFields__c</fullName>
+        <label>Custom Fields</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Custom Fields</labelOverride>
+            <masterLabel>Custom Fields</masterLabel>
+            <refAttrDeveloperName>CustomFields</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>EntityType__c</fullName>
+        <label>Entity Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Entity Type</labelOverride>
+            <masterLabel>Entity Type</masterLabel>
+            <refAttrDeveloperName>EntityType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Entity__c</fullName>
+        <label>Entity</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Entity</labelOverride>
+            <masterLabel>Entity</masterLabel>
+            <refAttrDeveloperName>Entity</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>EventIdentifier__c</fullName>
+        <label>Event Identifier</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Event Identifier</labelOverride>
+            <masterLabel>Event Identifier</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>EventIdentifier</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>EventName__c</fullName>
+        <label>Event Name</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Event Name</labelOverride>
+            <masterLabel>Event Name</masterLabel>
+            <refAttrDeveloperName>EventName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Feature__c</fullName>
+        <label>Feature</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Feature</labelOverride>
+            <masterLabel>Feature</masterLabel>
+            <refAttrDeveloperName>Feature</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_EventIdentifier__c</fullName>
+        <label>Key Qualifier Event Identifier</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Key Qualifier Event Identifier</labelOverride>
+            <masterLabel>Key Qualifier Event Identifier</masterLabel>
+            <refAttrDeveloperName>KQ_EventIdentifier</refAttrDeveloperName>
+            <usageTag>KeyQualifier</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>LoggedAt__c</fullName>
+        <label>Logged At</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Logged At</labelOverride>
+            <masterLabel>Logged At</masterLabel>
+            <refAttrDeveloperName>LoggedAt</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LoggerAppName__c</fullName>
+        <label>Logger App Name</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Logger App Name</labelOverride>
+            <masterLabel>Logger App Name</masterLabel>
+            <refAttrDeveloperName>LoggerAppName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>LoggerName__c</fullName>
+        <label>Logger Name</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Logger Name</labelOverride>
+            <masterLabel>Logger Name</masterLabel>
+            <refAttrDeveloperName>LoggerName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Org__c</fullName>
+        <label>Org</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Org</labelOverride>
+            <masterLabel>Org</masterLabel>
+            <refAttrDeveloperName>Org</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>PageContext__c</fullName>
+        <label>Page Context</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Page Context</labelOverride>
+            <masterLabel>Page Context</masterLabel>
+            <refAttrDeveloperName>PageContext</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>PageUrl__c</fullName>
+        <label>Page Url</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Page Url</labelOverride>
+            <masterLabel>Page Url</masterLabel>
+            <refAttrDeveloperName>PageUrl</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Score__c</fullName>
+        <label>Score</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Score</labelOverride>
+            <masterLabel>Score</masterLabel>
+            <refAttrDeveloperName>Score</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <label>Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Type</labelOverride>
+            <masterLabel>Type</masterLabel>
+            <refAttrDeveloperName>Type</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>UserId__c</fullName>
+        <label>User Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>User Id</labelOverride>
+            <masterLabel>User Id</masterLabel>
+            <refAttrDeveloperName>UserId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Custom</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>true</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <labelOverride>User Engagement</labelOverride>
+        <masterLabel>User Engagement</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Engagement</objectCategory>
+    </mktDataModelAttributes>
+</CustomObject>

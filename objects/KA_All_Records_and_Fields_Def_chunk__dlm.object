@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ChunkSequenceNumber__c</fullName>
+        <label>Chunk Sequence Number</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Chunk Sequence Number</labelOverride>
+            <masterLabel>Chunk Sequence Number</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Chunk__c</fullName>
+        <label>Chunk</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Chunk</labelOverride>
+            <masterLabel>Chunk</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>DataSourceObject__c</fullName>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Source Object</labelOverride>
+            <masterLabel>Data Source Object</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>DataSource__c</fullName>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Source</labelOverride>
+            <masterLabel>Data Source</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>InternalOrganization__c</fullName>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Internal Organization</labelOverride>
+            <masterLabel>Internal Organization</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_RecordId__c</fullName>
+        <label>Key Qualifier Record Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Key Qualifier Record Id</labelOverride>
+            <masterLabel>Key Qualifier Record Id</masterLabel>
+            <refAttrDeveloperName>KQ_RecordId</refAttrDeveloperName>
+            <usageTag>KeyQualifier</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_SourceRecordId__c</fullName>
+        <label>Key Qualifier Source Record Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Key Qualifier Source Record Id</labelOverride>
+            <masterLabel>Key Qualifier Source Record Id</masterLabel>
+            <refAttrDeveloperName>KQ_SourceRecordId</refAttrDeveloperName>
+            <usageTag>KeyQualifier</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>RecordId__c</fullName>
+        <label>Record Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Record Id</labelOverride>
+            <masterLabel>Record Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>SourceRecordId__c</fullName>
+        <label>Source Record Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Source Record Id</labelOverride>
+            <masterLabel>Source Record Id</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>rel_1744441252121_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>KA_All_Records_and_Fields_Def_chunk__rel</label>
+        <referenceTo>ssot__KnowledgeArticleVersion__dlm</referenceTo>
+        <relationshipLabel>KA_All_Records_and_Fields_Def_chunk__rel</relationshipLabel>
+        <relationshipName>rel_1744441252121_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Semantic</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>true</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <labelOverride>KA_All_Records_and_Fields_Def_chunk__dlm</labelOverride>
+        <masterLabel>KA_All_Records_and_Fields_Def_chunk__dlm</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Content</objectCategory>
+    </mktDataModelAttributes>
+</CustomObject>

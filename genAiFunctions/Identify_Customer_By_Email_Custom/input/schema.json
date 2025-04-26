@@ -1,0 +1,21 @@
+{
+  "required" : [ "emailaddress" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "emailaddress" : {
+      "title" : "emailaddress",
+      "description" : "Email address of the contact.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "phonenumber" : {
+      "title" : "phonenumber",
+      "description" : "Mobile phone number of the contact.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

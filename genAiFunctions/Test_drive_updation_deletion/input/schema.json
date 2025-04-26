@@ -1,0 +1,35 @@
+{
+  "required" : [ "DriveNumber" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "DriveNumber" : {
+      "title" : "DriveNumber",
+      "description" : "Ask customer about Test Drive Booking Number.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "customerRequest" : {
+      "title" : "customerRequest",
+      "description" : "if customer asks for an update in request maybe for car update or time change include that information here",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "timeSlot" : {
+      "title" : "timeSlot",
+      "description" : "include the updated time slot information here",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "updationRequest" : {
+      "title" : "updationRequest",
+      "description" : "send cancel or re-schedule as value for this variable if the customer is looking to cancel booking send cancel and if customer is looking for schedule change say re-schedule",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

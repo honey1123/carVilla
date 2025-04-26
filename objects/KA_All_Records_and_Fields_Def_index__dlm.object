@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>DataSourceObject__c</fullName>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Source Object</labelOverride>
+            <masterLabel>Data Source Object</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>DataSource__c</fullName>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Source</labelOverride>
+            <masterLabel>Data Source</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>InternalOrganization__c</fullName>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Internal Organization</labelOverride>
+            <masterLabel>Internal Organization</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>IsVisibleInPublicKnowledgeBase__c</fullName>
+        <label>Visible In Public Knowledge Base</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Visible In Public Knowledge Base</labelOverride>
+            <masterLabel>Visible In Public Knowledge Base</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_RecordId__c</fullName>
+        <label>Key Qualifier Record Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Key Qualifier Record Id</labelOverride>
+            <masterLabel>Key Qualifier Record Id</masterLabel>
+            <refAttrDeveloperName>KQ_RecordId</refAttrDeveloperName>
+            <usageTag>KeyQualifier</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_SourceRecordId__c</fullName>
+        <label>Key Qualifier Source Record Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Key Qualifier Source Record Id</labelOverride>
+            <masterLabel>Key Qualifier Source Record Id</masterLabel>
+            <refAttrDeveloperName>KQ_SourceRecordId</refAttrDeveloperName>
+            <usageTag>KeyQualifier</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KnowledgePublicationStatus__c</fullName>
+        <label>Knowledge Publication Status Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Knowledge Publication Status Id</labelOverride>
+            <masterLabel>Knowledge Publication Status Id</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Language__c</fullName>
+        <label>Language</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Language</labelOverride>
+            <masterLabel>Language</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>RecordId__c</fullName>
+        <label>Record Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Record Id</labelOverride>
+            <masterLabel>Record Id</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>SourceRecordId__c</fullName>
+        <label>Source Record Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Source Record Id</labelOverride>
+            <masterLabel>Source Record Id</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>VectorEmbedding__c</fullName>
+        <elementType>Float</elementType>
+        <label>Vector Embedding</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Vector Embedding</labelOverride>
+            <masterLabel>Vector Embedding</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <type>Array</type>
+    </fields>
+    <fields>
+        <fullName>rel_1744441255459_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>KA_All_Records_and_Fields_Def_index__rel</label>
+        <referenceTo>KA_All_Records_and_Fields_Def_chunk__dlm</referenceTo>
+        <relationshipLabel>KA_All_Records_and_Fields_Def_index__rel</relationshipLabel>
+        <relationshipName>rel_1744441255459_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Semantic</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>true</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <labelOverride>KA_All_Records_and_Fields_Def_index__dlm</labelOverride>
+        <masterLabel>KA_All_Records_and_Fields_Def_index__dlm</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Vector_Embedding</objectCategory>
+    </mktDataModelAttributes>
+</CustomObject>

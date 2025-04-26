@@ -1,0 +1,21 @@
+{
+  "required" : [ "NextAgentName" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "MessagingSessionID" : {
+      "title" : "MessagingSessionID",
+      "description" : "Current Messaging Session ID",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "NextAgentName" : {
+      "title" : "NextAgentName",
+      "description" : "Next Agent Name set through topic instruction\n",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

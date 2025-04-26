@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <description>This flow updates the current Messaging Session Record, adding the name of the Next Agent (where control needs to be transferred) to the custom field &apos;Next Requested Agent Name&apos;</description>
+    <environments>Default</environments>
+    <interviewLabel>Update Messaging Session Records {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Update Messaging Session Records</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>This component updates the Messaging Session records, picking up the current Messaging Session ID, and then adds the name of next identified agent to control the transfer to.</description>
+        <name>Update_Messaging_Session_Records</name>
+        <label>Update Messaging Session Records</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>MessagingSessionID</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Next_Requested_Agent_Name__c</field>
+            <value>
+                <elementReference>NextAgentName</elementReference>
+            </value>
+        </inputAssignments>
+        <object>MessagingSession</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Messaging_Session_Records</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>MessagingSessionID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>NextAgentName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Variable to deliver &quot;Success&quot; Prompt</description>
+        <name>SuccessPrompt</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>Success</stringValue>
+        </value>
+    </variables>
+</Flow>

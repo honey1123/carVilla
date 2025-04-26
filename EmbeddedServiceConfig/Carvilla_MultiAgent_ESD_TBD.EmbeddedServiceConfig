@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmbeddedServiceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areGuestUsersAllowed>false</areGuestUsersAllowed>
+    <deploymentFeature>EmbeddedMessaging</deploymentFeature>
+    <deploymentType>Web</deploymentType>
+    <embeddedServiceForms>
+        <displayContext>Conversation</displayContext>
+        <embeddedServiceFormFields>
+            <displayOrder>0</displayOrder>
+            <formField>_FirstName</formField>
+            <formFieldType>Text</formFieldType>
+            <isHidden>false</isHidden>
+            <isRequired>false</isRequired>
+            <messagingChannelParameterType>Standard</messagingChannelParameterType>
+        </embeddedServiceFormFields>
+        <embeddedServiceFormFields>
+            <displayOrder>1</displayOrder>
+            <formField>_LastName</formField>
+            <formFieldType>Text</formFieldType>
+            <isHidden>false</isHidden>
+            <isRequired>false</isRequired>
+            <messagingChannelParameterType>Standard</messagingChannelParameterType>
+        </embeddedServiceFormFields>
+        <isActive>true</isActive>
+    </embeddedServiceForms>
+    <embeddedServiceMessagingChannel>
+        <isEnabled>true</isEnabled>
+        <messagingChannel>Carvilla_Channel_for_MultiAgent</messagingChannel>
+        <shouldShowDeliveryReceipts>true</shouldShowDeliveryReceipts>
+        <shouldShowEmojiSelection>true</shouldShowEmojiSelection>
+        <shouldShowReadReceipts>true</shouldShowReadReceipts>
+        <shouldShowTypingIndicators>true</shouldShowTypingIndicators>
+        <shouldStartNewLineOnEnter>true</shouldStartNewLineOnEnter>
+    </embeddedServiceMessagingChannel>
+    <isEnabled>true</isEnabled>
+    <isTermsAndConditionsEnabled>false</isTermsAndConditionsEnabled>
+    <isTermsAndConditionsRequired>false</isTermsAndConditionsRequired>
+    <masterLabel>TBD_Carvilla MultiAgent ESD_TBD</masterLabel>
+    <shouldHideAuthDialog>false</shouldHideAuthDialog>
+    <site>ESW_Carvilla_MultiAgent_ES_17440152087651</site>
+</EmbeddedServiceConfig>

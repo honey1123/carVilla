@@ -1,0 +1,21 @@
+{
+  "required" : [ "customerMessage", "prefferedTimeSlot" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "customerMessage" : {
+      "title" : "customerMessage",
+      "description" : "Customer message about vehicle specifications and details",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "prefferedTimeSlot" : {
+      "title" : "prefferedTimeSlot",
+      "description" : "Preferred time slot by customer for test drive",
+      "lightning:type" : "lightning__dateTimeStringType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

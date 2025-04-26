@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ActionDuration__c</fullName>
+        <label>Action Duration</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Action Duration</labelOverride>
+            <masterLabel>Action Duration</masterLabel>
+            <refAttrDeveloperName>ActionDuration</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ActionId__c</fullName>
+        <label>Action ID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Action ID</labelOverride>
+            <masterLabel>Action ID</masterLabel>
+            <refAttrDeveloperName>ActionId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ActionName__c</fullName>
+        <label>Action Name</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Action Name</labelOverride>
+            <masterLabel>Action Name</masterLabel>
+            <refAttrDeveloperName>ActionName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ActionSuccess__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Action Success</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Action Success</labelOverride>
+            <masterLabel>Action Success</masterLabel>
+            <refAttrDeveloperName>ActionSuccess</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Channel__c</fullName>
+        <label>Channel</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Channel</labelOverride>
+            <masterLabel>Channel</masterLabel>
+            <refAttrDeveloperName>Channel</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ConversationDefinition__c</fullName>
+        <label>Conversation Definition</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Conversation Definition</labelOverride>
+            <masterLabel>Conversation Definition</masterLabel>
+            <refAttrDeveloperName>ConversationDefinition</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ConversationEventLogType__c</fullName>
+        <label>Conversation Event Log Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Conversation Event Log Type</labelOverride>
+            <masterLabel>Conversation Event Log Type</masterLabel>
+            <refAttrDeveloperName>ConversationEventLogType</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>CopilotName__c</fullName>
+        <label>Copilot Name</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Copilot Name</labelOverride>
+            <masterLabel>Copilot Name</masterLabel>
+            <refAttrDeveloperName>CopilotName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Date__c</fullName>
+        <label>Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Date</labelOverride>
+            <masterLabel>Date</masterLabel>
+            <refAttrDeveloperName>Date</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>ExternalLatencyTime__c</fullName>
+        <label>External Latency Time</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>External Latency Time</labelOverride>
+            <masterLabel>External Latency Time</masterLabel>
+            <refAttrDeveloperName>ExternalLatencyTime</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ExternalSessionKey__c</fullName>
+        <label>External Session Key</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>External Session Key</labelOverride>
+            <masterLabel>External Session Key</masterLabel>
+            <refAttrDeveloperName>ExternalSessionKey</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_uuid__c</fullName>
+        <label>Key Qualifier UUID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Key Qualifier UUID</labelOverride>
+            <masterLabel>Key Qualifier UUID</masterLabel>
+            <refAttrDeveloperName>KQ_uuid</refAttrDeveloperName>
+            <usageTag>KeyQualifier</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Language__c</fullName>
+        <label>Language</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Language</labelOverride>
+            <masterLabel>Language</masterLabel>
+            <refAttrDeveloperName>Language</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Message__c</fullName>
+        <label>Message</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Message</labelOverride>
+            <masterLabel>Message</masterLabel>
+            <refAttrDeveloperName>Message</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>OrgId__c</fullName>
+        <label>Org ID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Org ID</labelOverride>
+            <masterLabel>Org ID</masterLabel>
+            <refAttrDeveloperName>OrgId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>PlanData__c</fullName>
+        <label>Plan Data</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Plan Data</labelOverride>
+            <masterLabel>Plan Data</masterLabel>
+            <refAttrDeveloperName>PlanData</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>PreviousEventLogUuid__c</fullName>
+        <label>Previous Event Log UUID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Previous Event Log UUID</labelOverride>
+            <masterLabel>Previous Event Log UUID</masterLabel>
+            <refAttrDeveloperName>PreviousEventLogUuid</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>SessionId__c</fullName>
+        <label>Session ID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Session ID</labelOverride>
+            <masterLabel>Session ID</masterLabel>
+            <refAttrDeveloperName>SessionId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Topic__c</fullName>
+        <label>Topic</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Topic</labelOverride>
+            <masterLabel>Topic</masterLabel>
+            <refAttrDeveloperName>Topic</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>TurnId__c</fullName>
+        <label>Turn ID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Turn ID</labelOverride>
+            <masterLabel>Turn ID</masterLabel>
+            <refAttrDeveloperName>TurnId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>UserId__c</fullName>
+        <label>User ID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>User ID</labelOverride>
+            <masterLabel>User ID</masterLabel>
+            <refAttrDeveloperName>UserId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>UserName__c</fullName>
+        <label>User Name</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>User Name</labelOverride>
+            <masterLabel>User Name</masterLabel>
+            <refAttrDeveloperName>UserName</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>uuid__c</fullName>
+        <label>UUID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>UUID</labelOverride>
+            <masterLabel>UUID</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>uuid</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Custom</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>true</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <labelOverride>Copilot For Salesforce Apps Events</labelOverride>
+        <masterLabel>Copilot For Salesforce Apps Events</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Engagement</objectCategory>
+    </mktDataModelAttributes>
+</CustomObject>

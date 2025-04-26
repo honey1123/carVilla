@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Col1__c</fullName>
+        <label>Col1</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Col1</labelOverride>
+            <masterLabel>Col1</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Col2__c</fullName>
+        <label>Col2</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Col2</labelOverride>
+            <masterLabel>Col2</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Col3__c</fullName>
+        <label>Col3</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Col3</labelOverride>
+            <masterLabel>Col3</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Col4__c</fullName>
+        <label>Col4</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Col4</labelOverride>
+            <masterLabel>Col4</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Col5__c</fullName>
+        <label>Col5</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Col5</labelOverride>
+            <masterLabel>Col5</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ContentType__c</fullName>
+        <label>Content Type</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Content Type</labelOverride>
+            <masterLabel>Content Type</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>DataSourceObject__c</fullName>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Source Object</labelOverride>
+            <masterLabel>Data Source Object</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>DataSource__c</fullName>
+        <label>Data Source</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Data Source</labelOverride>
+            <masterLabel>Data Source</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ETag__c</fullName>
+        <label>ETag</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>ETag</labelOverride>
+            <masterLabel>ETag</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>FilePath__c</fullName>
+        <label>File Path</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>File Path</labelOverride>
+            <masterLabel>File Path</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>InternalOrganization__c</fullName>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Internal Organization</labelOverride>
+            <masterLabel>Internal Organization</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_FilePath__c</fullName>
+        <label>Key Qualifier File Path</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Key Qualifier File Path</labelOverride>
+            <masterLabel>Key Qualifier File Path</masterLabel>
+            <refAttrDeveloperName>KQ_FilePath</refAttrDeveloperName>
+            <usageTag>KeyQualifier</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>LastModified__c</fullName>
+        <label>Last Modified</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Last Modified</labelOverride>
+            <masterLabel>Last Modified</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Metadata__c</fullName>
+        <label>Metadata</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Metadata</labelOverride>
+            <masterLabel>Metadata</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ParentId__c</fullName>
+        <label>Parent Id</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Parent Id</labelOverride>
+            <masterLabel>Parent Id</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ResolvedFilePath__c</fullName>
+        <label>Resolved FilePath</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Resolved FilePath</labelOverride>
+            <masterLabel>Resolved FilePath</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Size__c</fullName>
+        <label>Size</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Size</labelOverride>
+            <masterLabel>Size</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>cdp_sys_SourceVersion__c</fullName>
+        <label>cdp_sys_SourceVersion</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Custom</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>cdp_sys_SourceVersion</labelOverride>
+            <masterLabel>cdp_sys_SourceVersion</masterLabel>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>rel_1744008711634_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>RagFileUDMO_FilePath_map_AiGrounding_rel</label>
+        <referenceTo>AiGroundingFileRefCustom__dlm</referenceTo>
+        <relationshipLabel>RagFileUDMO_FilePath_map_AiGrounding_rel</relationshipLabel>
+        <relationshipName>rel_1744008711634_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Custom</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>true</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <labelOverride>RagFileUDMO</labelOverride>
+        <masterLabel>RagFileUDMO</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Directory_Table</objectCategory>
+    </mktDataModelAttributes>
+</CustomObject>

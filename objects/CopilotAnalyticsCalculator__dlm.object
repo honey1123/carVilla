@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>BotId__c</fullName>
+        <label>Bot ID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Bot ID</labelOverride>
+            <masterLabel>Bot ID</masterLabel>
+            <refAttrDeveloperName>BotId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Date__c</fullName>
+        <label>Date</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Date</labelOverride>
+            <masterLabel>Date</masterLabel>
+            <refAttrDeveloperName>Date</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Feature__c</fullName>
+        <label>Feature</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Feature</labelOverride>
+            <masterLabel>Feature</masterLabel>
+            <refAttrDeveloperName>Feature</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>GroupByField1__c</fullName>
+        <label>Group By Field 1</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Group By Field 1</labelOverride>
+            <masterLabel>Group By Field 1</masterLabel>
+            <refAttrDeveloperName>GroupByField1</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>GroupByField2__c</fullName>
+        <label>Group By Field 2</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Group By Field 2</labelOverride>
+            <masterLabel>Group By Field 2</masterLabel>
+            <refAttrDeveloperName>GroupByField2</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>GroupByField3__c</fullName>
+        <label>Group By Field 3</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Group By Field 3</labelOverride>
+            <masterLabel>Group By Field 3</masterLabel>
+            <refAttrDeveloperName>GroupByField3</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>GroupByValue1__c</fullName>
+        <label>Group By Value 1</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Group By Value 1</labelOverride>
+            <masterLabel>Group By Value 1</masterLabel>
+            <refAttrDeveloperName>GroupByValue1</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>GroupByValue2__c</fullName>
+        <label>Group By Value 2</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Group By Value 2</labelOverride>
+            <masterLabel>Group By Value 2</masterLabel>
+            <refAttrDeveloperName>GroupByValue2</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>GroupByValue3__c</fullName>
+        <label>Group By Value 3</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Group By Value 3</labelOverride>
+            <masterLabel>Group By Value 3</masterLabel>
+            <refAttrDeveloperName>GroupByValue3</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_MetricId__c</fullName>
+        <label>Key Qualifier Metric ID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>System</definitionCreationType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Key Qualifier Metric ID</labelOverride>
+            <masterLabel>Key Qualifier Metric ID</masterLabel>
+            <refAttrDeveloperName>KQ_MetricId</refAttrDeveloperName>
+            <usageTag>KeyQualifier</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>MetricId__c</fullName>
+        <label>Metric ID</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Metric ID</labelOverride>
+            <masterLabel>Metric ID</masterLabel>
+            <primaryIndexOrder>1</primaryIndexOrder>
+            <refAttrDeveloperName>MetricId</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>MetricKey__c</fullName>
+        <label>Metric Key</label>
+        <length>60</length>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Metric Key</labelOverride>
+            <masterLabel>Metric Key</masterLabel>
+            <refAttrDeveloperName>MetricKey</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>MetricValue__c</fullName>
+        <label>Metric Value</label>
+        <mktDataModelFieldAttributes>
+            <definitionCreationType>Standard</definitionCreationType>
+            <invalidMergeActionType>Drop</invalidMergeActionType>
+            <isDynamicLookup>false</isDynamicLookup>
+            <labelOverride>Metric Value</labelOverride>
+            <masterLabel>Metric Value</masterLabel>
+            <refAttrDeveloperName>MetricValue</refAttrDeveloperName>
+            <usageTag>None</usageTag>
+        </mktDataModelFieldAttributes>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <type>Number</type>
+    </fields>
+    <mktDataModelAttributes>
+        <creationType>Custom</creationType>
+        <dataModelTaxonomy>Salesforce_SFDCReferenceModel_0_93</dataModelTaxonomy>
+        <dataSpaceName>default</dataSpaceName>
+        <isEnabled>true</isEnabled>
+        <isSegmentable>false</isSegmentable>
+        <isUsedForMetrics>false</isUsedForMetrics>
+        <labelOverride>Copilot Analytics Calculator</labelOverride>
+        <masterLabel>Copilot Analytics Calculator</masterLabel>
+        <objectCategory>Salesforce_SFDCReferenceModel_0_93.Engagement</objectCategory>
+    </mktDataModelAttributes>
+</CustomObject>

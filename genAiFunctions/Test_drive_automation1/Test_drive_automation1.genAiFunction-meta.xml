@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Agent should take input from customer, input should contain a datetime for prefered time slot and other could be sent as is as customer request</description>
+    <invocationTarget>Test_drive_automation</invocationTarget>
+    <invocationTargetType>flow</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <masterLabel>Test drive automation</masterLabel>
+</GenAiFunction>

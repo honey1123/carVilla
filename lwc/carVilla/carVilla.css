@@ -1,0 +1,32 @@
+.iframe-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Container hides overflow */
+}
+
+.full-screen-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;  /* Remove the border */
+    display: block;
+    background: transparent;
+    overflow: scroll; /* Allow scrolling but hide the scrollbar */
+}
+
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+.full-screen-iframe::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+}
+
+/* For Firefox */
+.full-screen-iframe {
+    scrollbar-width: none;  /* Hide scrollbar in Firefox */
+}
+
+/* For Internet Explorer and Edge */
+.full-screen-iframe {
+    -ms-overflow-style: none;  /* Hide scrollbar in IE 10+ */
+}
